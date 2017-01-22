@@ -1,0 +1,48 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* PrintButtonName */
+#YBridesSonar20170101002_PrintButtonName {
+
+}
+.ui-btn.YBridesSonar20170101002_PrintButtonName {
+
+}
+/* YBridesSonar20170101002ContainerName */
+.ui-content.YBridesSonar20170101002_YBridesSonar20170101002ContainerName {
+	padding: 15px 15px 15px 15px;
+}
+/* YBridesSonar20170101002FooterName */
+.YBridesSonar20170101002_YBridesSonar20170101002FooterName {
+	min-height:38px;
+}
+/* PrintPopupName */
+.YBridesSonar20170101002_PrintPopupName {
+	width: 100%; height: 100%;
+}
+div.YBridesSonar20170101002_PrintPopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.YBridesSonar20170101002_PrintPopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 0px;
+}
+/* ProfilePrintImageName */
+.YBridesSonar20170101002_ProfilePrintImageName {
+	margin: 0px 0px 4px 0px;
+	width: 100%; height: 100%;
+	display: block;
+}
+/* KundaliPrintImageName */
+.YBridesSonar20170101002_KundaliPrintImageName {
+	margin: 4px 0px 0px 0px;
+	width: 100%; height: 100%;
+	display: block;
+}

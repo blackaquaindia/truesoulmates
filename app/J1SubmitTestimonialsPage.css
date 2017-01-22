@@ -1,0 +1,35 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* J1SubmitTestimonialsContainerName */
+.ui-content.J1SubmitTestimonialsPage_J1SubmitTestimonialsContainerName {
+	padding: 15px 15px 15px 15px;
+}
+/* J1SubmitTestimonialsFooterName */
+.J1SubmitTestimonialsPage_J1SubmitTestimonialsFooterName {
+	min-height:38px;
+}
+/* J1TestimonialsPopupName */
+.J1SubmitTestimonialsPage_J1TestimonialsPopupName {
+	width: 100%; height: 100%;
+}
+div.J1SubmitTestimonialsPage_J1TestimonialsPopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.J1SubmitTestimonialsPage_J1TestimonialsPopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* PopupLable1Name */
+.J1SubmitTestimonialsPage_PopupLable1Name {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}

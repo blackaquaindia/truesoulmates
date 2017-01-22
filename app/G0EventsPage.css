@@ -1,0 +1,20 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* SubmitEventsButtonName */
+#G0EventsPage_SubmitEventsButtonName {
+
+}
+.ui-btn.G0EventsPage_SubmitEventsButtonName {
+
+}
+/* G0EventsContainerName */
+.ui-content.G0EventsPage_G0EventsContainerName {
+	padding: 15px 15px 15px 15px;
+}
+/* G0EventsFooterName */
+.G0EventsPage_G0EventsFooterName {
+	min-height:38px;
+}

@@ -1,0 +1,151 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* I0SocialMediaContainerName */
+.ui-content.I0SocialMediaPage_I0SocialMediaContainerName {
+	padding: 15px 15px 15px 15px;
+}
+/* I0SocialMediaLableName */
+.I0SocialMediaPage_I0SocialMediaLableName {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 0px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* I0SocialMediaGridName */
+.I0SocialMediaPage_I0SocialMediaGridName {
+	height: auto;
+	width:100%;
+	margin: 0px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.I0SocialMediaPage_I0SocialMediaGridName_wrapper {
+
+}
+.I0SocialMediaPage_I0SocialMediaGridName > tr > td {
+	vertical-align: top;
+}
+.I0SocialMediaPage_I0SocialMediaGridName_row_0, .I0SocialMediaPage_I0SocialMediaGridName_row_0 > td {
+	height: auto
+}
+/* I0SocialMediaGridCell1 */
+.I0SocialMediaPage_I0SocialMediaGridCell1 {
+	height:auto !important;
+	width:33%;
+	padding: 15px 15px 15px 15px;
+}
+.I0SocialMediaPage_I0SocialMediaGridCell1 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* FacebookIconName */
+.I0SocialMediaPage_FacebookIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* I0SocialMediaGridCell2 */
+.I0SocialMediaPage_I0SocialMediaGridCell2 {
+	height:auto !important;
+	width:33%;
+	padding: 15px 15px 15px 15px;
+}
+.I0SocialMediaPage_I0SocialMediaGridCell2 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* TwitterIconName */
+.I0SocialMediaPage_TwitterIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* I0SocialMediaGridCell3 */
+.I0SocialMediaPage_I0SocialMediaGridCell3 {
+	height:auto !important;
+	width:33%;
+	padding: 15px 15px 15px 15px;
+}
+.I0SocialMediaPage_I0SocialMediaGridCell3 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* InstagramIconName */
+.I0SocialMediaPage_InstagramIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* I0SocialMediaFooterName */
+.I0SocialMediaPage_I0SocialMediaFooterName {
+	min-height:38px;
+}
+/* FacebookPopupName */
+.I0SocialMediaPage_FacebookPopupName {
+	width: 100%; height: 100%;
+}
+div.I0SocialMediaPage_FacebookPopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.I0SocialMediaPage_FacebookPopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* PopupLable1Name */
+.I0SocialMediaPage_PopupLable1Name {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* TwitterPopupName */
+.I0SocialMediaPage_TwitterPopupName {
+	width: 100%; height: 100%;
+}
+div.I0SocialMediaPage_TwitterPopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.I0SocialMediaPage_TwitterPopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* PopupLable2Name */
+.I0SocialMediaPage_PopupLable2Name {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* InstagramPopupName */
+.I0SocialMediaPage_InstagramPopupName {
+	width: 100%; height: 100%;
+}
+div.I0SocialMediaPage_InstagramPopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.I0SocialMediaPage_InstagramPopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* PopupLable3Name */
+.I0SocialMediaPage_PopupLable3Name {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}

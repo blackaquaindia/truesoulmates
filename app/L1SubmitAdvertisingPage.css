@@ -1,0 +1,35 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* L1SubmitAdvertisingContainerName */
+.ui-content.L1SubmitAdvertisingPage_L1SubmitAdvertisingContainerName {
+	padding: 15px 15px 15px 15px;
+}
+/* L1SubmitAdvertisingFooterName */
+.L1SubmitAdvertisingPage_L1SubmitAdvertisingFooterName {
+	min-height:38px;
+}
+/* L1AdvertisingPopupName */
+.L1SubmitAdvertisingPage_L1AdvertisingPopupName {
+	width: 100%; height: auto;
+}
+div.L1SubmitAdvertisingPage_L1AdvertisingPopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.L1SubmitAdvertisingPage_L1AdvertisingPopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* PopupLable1Name */
+.L1SubmitAdvertisingPage_PopupLable1Name {
+	text-decoration: none; font-weight: normal; text-align: center; font-family: Georgia; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            I0SocialMediaPage
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <link href="../libs/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="../libs/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="../libs/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="I0SocialMediaPage" id="I0SocialMediaPage"
+        class="type-interior" data-theme="c">
+            <!-- I0SocialMediaHeaderName -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="c" name="I0SocialMediaHeaderName" id="I0SocialMediaPage_I0SocialMediaHeaderName"
+            class="I0SocialMediaHeaderClass  I0SocialMediaPage_I0SocialMediaHeaderName">
+                <h1 dsid="I0SocialMediaHeaderName">
+                    Social Media
+                </h1>
+            </div>
+            <!-- I0SocialMediaContainerName -->
+            <div data-role="content" id="I0SocialMediaPage_I0SocialMediaContainerName" name="I0SocialMediaContainerName"
+            class="I0SocialMediaContainerClass  I0SocialMediaPage_I0SocialMediaContainerName ui-content"
+            dsid="I0SocialMediaContainerName" data-theme="c">
+                <link href="I0SocialMediaPage.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="I0SocialMediaPage.js">
+                </script>
+                <!-- I0SocialMediaLableName -->
+                <div name="I0SocialMediaLableName" id="I0SocialMediaPage_I0SocialMediaLableName"
+                dsid="I0SocialMediaLableName" data-role="appery_label" class="I0SocialMediaLableClass  I0SocialMediaPage_I0SocialMediaLableName">
+                    Follow Us On
+                </div>
+                <!-- I0SocialMediaGridName -->
+                <div class="I0SocialMediaPage_I0SocialMediaGridName_wrapper" data-wrapper-for="I0SocialMediaGridName">
+                    <table id="I0SocialMediaPage_I0SocialMediaGridName" class="I0SocialMediaGridClass  I0SocialMediaPage_I0SocialMediaGridName"
+                    dsid="I0SocialMediaGridName" name="I0SocialMediaGridName" cellpadding=0 cellspacing=0>
+                        <col style="width:33%;" />
+                        <col style="width:33%;" />
+                        <col style="width:33%;" />
+                        <tr class="I0SocialMediaPage_I0SocialMediaGridName_row_0">
+                            <!-- I0SocialMediaGridCell1 -->
+                            <td id="I0SocialMediaPage_I0SocialMediaGridCell1" name="I0SocialMediaGridCell1"
+                            class="I0SocialMediaPage_I0SocialMediaGridCell1" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- FacebookIconName -->
+                                    <img class="FacebookIconClass  I0SocialMediaPage_FacebookIconName" src="../img/FacebookIconName.png"
+                                    id="I0SocialMediaPage_FacebookIconName" dsid="FacebookIconName" name="FacebookIconName"
+                                    />
+                                </div>
+                            </td>
+                            <!-- I0SocialMediaGridCell2 -->
+                            <td id="I0SocialMediaPage_I0SocialMediaGridCell2" name="I0SocialMediaGridCell2"
+                            class="I0SocialMediaPage_I0SocialMediaGridCell2" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- TwitterIconName -->
+                                    <img class="TwitterIconClass  I0SocialMediaPage_TwitterIconName" src="../img/TwitterIconName.png"
+                                    id="I0SocialMediaPage_TwitterIconName" dsid="TwitterIconName" name="TwitterIconName"
+                                    />
+                                </div>
+                            </td>
+                            <!-- I0SocialMediaGridCell3 -->
+                            <td id="I0SocialMediaPage_I0SocialMediaGridCell3" name="I0SocialMediaGridCell3"
+                            class="I0SocialMediaPage_I0SocialMediaGridCell3" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- InstagramIconName -->
+                                    <img class="InstagramIconClass  I0SocialMediaPage_InstagramIconName" src="../img/InstagramIconName.png"
+                                    id="I0SocialMediaPage_InstagramIconName" dsid="InstagramIconName" name="InstagramIconName"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- I0SocialMediaFooterName -->
+            <div data-role="footer" data-position="fixed" class="I0SocialMediaFooterClass  I0SocialMediaPage_I0SocialMediaFooterName"
+            name="I0SocialMediaFooterName" dsid="I0SocialMediaFooterName" id="I0SocialMediaPage_I0SocialMediaFooterName"
+            data-theme="c">
+            </div>
+            <!-- FacebookPopupName -->
+            <div data-role="popup" name="FacebookPopupName" dsid="FacebookPopupName" id="I0SocialMediaPage_FacebookPopupName"
+            class="FacebookPopupClass  I0SocialMediaPage_FacebookPopupName" data-corners="true"
+            data-dismissible="true" data-overlay-theme="" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- PopupLable1Name -->
+                    <div name="PopupLable1Name" id="I0SocialMediaPage_PopupLable1Name" dsid="PopupLable1Name"
+                    data-role="appery_label" class="PopupLable1Class  I0SocialMediaPage_PopupLable1Name">
+                        Facebook
+                    </div>
+                </div>
+            </div>
+            <!-- TwitterPopupName -->
+            <div data-role="popup" name="TwitterPopupName" dsid="TwitterPopupName" id="I0SocialMediaPage_TwitterPopupName"
+            class="TwitterPopupClass  I0SocialMediaPage_TwitterPopupName" data-corners="true"
+            data-dismissible="true" data-overlay-theme="" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- PopupLable2Name -->
+                    <div name="PopupLable2Name" id="I0SocialMediaPage_PopupLable2Name" dsid="PopupLable2Name"
+                    data-role="appery_label" class="PopupLable2Class  I0SocialMediaPage_PopupLable2Name">
+                        Twitter
+                    </div>
+                </div>
+            </div>
+            <!-- InstagramPopupName -->
+            <div data-role="popup" name="InstagramPopupName" dsid="InstagramPopupName" id="I0SocialMediaPage_InstagramPopupName"
+            class="InstagramPopupClass  I0SocialMediaPage_InstagramPopupName" data-corners="true"
+            data-dismissible="true" data-overlay-theme="" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- PopupLable3Name -->
+                    <div name="PopupLable3Name" id="I0SocialMediaPage_PopupLable3Name" dsid="PopupLable3Name"
+                    data-role="appery_label" class="PopupLable3Class  I0SocialMediaPage_PopupLable3Name">
+                        Instagram
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

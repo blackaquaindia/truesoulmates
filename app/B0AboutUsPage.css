@@ -1,0 +1,49 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* B0AboutUsContainerName */
+.ui-content.B0AboutUsPage_B0AboutUsContainerName {
+	padding: 15px 15px 15px 15px;
+}
+/* EnglishAboutUsName */
+.B0AboutUsPage_EnglishAboutUsName {
+	margin: 0px 0px 15px 0px;
+	font-weight: normal;
+	width: 100%; height: auto;
+}
+div.B0AboutUsPage_EnglishAboutUsName {
+	overflow: auto;
+}
+/* MarathiAboutUsName */
+.B0AboutUsPage_MarathiAboutUsName {
+	margin: 0px 0px 15px 0px;
+	font-weight: normal;
+	width: 100%; height: auto;
+}
+div.B0AboutUsPage_MarathiAboutUsName {
+	overflow: auto;
+}
+/* HindiAboutUsName */
+.B0AboutUsPage_HindiAboutUsName {
+	margin: 0px 0px 15px 0px;
+	font-weight: normal;
+	width: 100%; height: auto;
+}
+div.B0AboutUsPage_HindiAboutUsName {
+	overflow: auto;
+}
+/* GujaratiAboutUsName */
+.B0AboutUsPage_GujaratiAboutUsName {
+	margin: 0px 0px 15px 0px;
+	font-weight: normal;
+	width: 100%; height: auto;
+}
+div.B0AboutUsPage_GujaratiAboutUsName {
+	overflow: auto;
+}
+/* B0AboutUsFooterName */
+.B0AboutUsPage_B0AboutUsFooterName {
+	min-height:38px;
+}

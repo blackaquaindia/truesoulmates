@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            ZGroomsListPageSonar
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <link href="../libs/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="../libs/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="../libs/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="ZGroomsListPageSonar" id="ZGroomsListPageSonar"
+        class="type-interior" data-theme="c">
+            <!-- ZGroomsListPageSonarHeaderName -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="c" name="ZGroomsListPageSonarHeaderName" id="ZGroomsListPageSonar_ZGroomsListPageSonarHeaderName"
+            class="ZGroomsListPageSonarHeaderClass  ZGroomsListPageSonar_ZGroomsListPageSonarHeaderName">
+                <h1 dsid="ZGroomsListPageSonarHeaderName">
+                    Sonar Grooms
+                </h1>
+                <!-- SearchButtonName --><!--
+                --><a data-role="button" name="SearchButtonName" dsid="SearchButtonName" class="SearchButtonClass  ZGroomsListPageSonar_SearchButtonName ui-btn-right"
+                id="ZGroomsListPageSonar_SearchButtonName" data-corners="true" data-icon="search"
+                data-iconpos="left" x-apple-data-detectors="false" data-inline='true' data-mini='true'
+                data-theme="c" tabindex="5">
+                Search
+                </a>
+            </div>
+            <!-- ZGroomsListPageSonarContainerName -->
+            <div data-role="content" id="ZGroomsListPageSonar_ZGroomsListPageSonarContainerName"
+            name="ZGroomsListPageSonarContainerName" class="ZGroomsListPageSonarContainerClass  ZGroomsListPageSonar_ZGroomsListPageSonarContainerName ui-content"
+            dsid="ZGroomsListPageSonarContainerName" data-theme="c">
+                <link href="ZGroomsListPageSonar.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="ZGroomsListPageSonar.js">
+                </script>
+                <!-- YGroomsListPageSonarName -->
+                <ul data-role="listview" id="ZGroomsListPageSonar_YGroomsListPageSonarName" class="YGroomsListPageSonaClass  ZGroomsListPageSonar_YGroomsListPageSonarName"
+                name="YGroomsListPageSonarName" dsid="YGroomsListPageSonarName" data-filter="true"
+                data-filter-theme="c" data-filter-placeholder="Write Name, ID, Age, City, Height, Education"
+                data-theme="c" data-autodividers="true" data-divider-theme="b" data-count-theme="b"
+                style="" data-split-icon="carat-r">
+                    <!-- ZGroomsSonar20170101001Name -->
+                    <li class="ZGroomsListPageSonar_ZGroomsSonar20170101001Name ui-li-has-thumb" data-icon="carat-r">
+                        <a id="ZGroomsListPageSonar_ZGroomsSonar20170101001Name" name="ZGroomsSonar20170101001Name"
+                        dsid="ZGroomsSonar20170101001Name" tabindex="1" class="ZGroomsListPageSonar_ZGroomsSonar20170101001Name">
+                        <img src="../img/icon.png" />
+                        <h3>AGroomsSonar001</h3>
+                        </a>
+                    </li>
+                    <!-- ZGroomsSonar20170101002Name -->
+                    <li class="ZGroomsListPageSonar_ZGroomsSonar20170101002Name ui-li-has-thumb" data-icon="carat-r">
+                        <a id="ZGroomsListPageSonar_ZGroomsSonar20170101002Name" name="ZGroomsSonar20170101002Name"
+                        dsid="ZGroomsSonar20170101002Name" tabindex="1" class="ZGroomsListPageSonar_ZGroomsSonar20170101002Name">
+                        <img src="../img/icon.png" />
+                        <h3>BGroomsSonar002</h3>
+                        </a>
+                    </li>
+                    <!-- ZGroomsSonar20170101003Name -->
+                    <li class="ZGroomsListPageSonar_ZGroomsSonar20170101003Name ui-li-has-thumb" data-icon="carat-r">
+                        <a id="ZGroomsListPageSonar_ZGroomsSonar20170101003Name" name="ZGroomsSonar20170101003Name"
+                        dsid="ZGroomsSonar20170101003Name" tabindex="1" class="ZGroomsListPageSonar_ZGroomsSonar20170101003Name">
+                        <img src="../img/icon.png" />
+                        <h3>CGroomsSonar003</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- ZGroomsListPageSonarFooterName -->
+            <div data-role="footer" data-position="fixed" class="ZGroomsListPageSonarFooterClass  ZGroomsListPageSonar_ZGroomsListPageSonarFooterName"
+            name="ZGroomsListPageSonarFooterName" dsid="ZGroomsListPageSonarFooterName" id="ZGroomsListPageSonar_ZGroomsListPageSonarFooterName"
+            data-theme="c">
+            </div>
+            <!-- SearchPopupName -->
+            <div data-role="popup" name="SearchPopupName" dsid="SearchPopupName" id="ZGroomsListPageSonar_SearchPopupName"
+            class="SearchPopuClass  ZGroomsListPageSonar_SearchPopupName" data-corners="true"
+            data-dismissible="true" data-overlay-theme="" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- SearchCollapsibleSetName -->
+                    <div data-role="collapsible-set" data-mini="true" data-theme="c" data-content-theme=c
+                    data-collapsed-icon='plus' data-expanded-icon='minus' name="SearchCollapsibleSetName"
+                    id="ZGroomsListPageSonar_SearchCollapsibleSetName" dsid="SearchCollapsibleSetName"
+                    class="ZGroomsListPageSonar_SearchCollapsibleSetName">
+                        <!-- NameWiseCollapsBlockName -->
+                        <div data-role="collapsible" id="ZGroomsListPageSonar_NameWiseCollapsBlockName"
+                        name="NameWiseCollapsBlockName" dsid="NameWiseCollapsBlockName" data-mini="true"
+                        data-collapsed="true" data-theme="c" data-content-theme="c" data-iconpos='left' class="NameWiseCollapsBlockClass  ZGroomsListPageSonar_NameWiseCollapsBlockName"
+                        reRender='SearchCollapsibleSetName'>
+                            <h3 id="ZGroomsListPageSonar_NameWiseCollapsBlockHeaderName" name="NameWiseCollapsBlockHeaderName"
+                            dsid="NameWiseCollapsBlockHeaderName">
+                                Name Wise
+                            </h3>
+                        </div>
+                        <!-- IdWiseCollapsBlockName -->
+                        <div data-role="collapsible" id="ZGroomsListPageSonar_IdWiseCollapsBlockName" name="IdWiseCollapsBlockName"
+                        dsid="IdWiseCollapsBlockName" data-mini="true" data-collapsed="true" data-theme="c"
+                        data-content-theme="c" data-iconpos='left' class="IdWiseCollapsBlockClass  ZGroomsListPageSonar_IdWiseCollapsBlockName"
+                        reRender='SearchCollapsibleSetName'>
+                            <h3 id="ZGroomsListPageSonar_IdWiseCollapsBlockHeaderName" name="IdWiseCollapsBlockHeaderName"
+                            dsid="IdWiseCollapsBlockHeaderName">
+                                ID Wise
+                            </h3>
+                        </div>
+                        <!-- AgeWiseCollapsBlockName -->
+                        <div data-role="collapsible" id="ZGroomsListPageSonar_AgeWiseCollapsBlockName" name="AgeWiseCollapsBlockName"
+                        dsid="AgeWiseCollapsBlockName" data-mini="true" data-collapsed="true" data-theme="c"
+                        data-content-theme="c" data-iconpos='left' class="AgeWiseCollapsBlockClass  ZGroomsListPageSonar_AgeWiseCollapsBlockName"
+                        reRender='SearchCollapsibleSetName'>
+                            <h3 id="ZGroomsListPageSonar_AgeWiseCollapsBlockHeaderName" name="AgeWiseCollapsBlockHeaderName"
+                            dsid="AgeWiseCollapsBlockHeaderName">
+                                Age Wise
+                            </h3>
+                        </div>
+                        <!-- HeightWiseCollapsBlockName -->
+                        <div data-role="collapsible" id="ZGroomsListPageSonar_HeightWiseCollapsBlockName"
+                        name="HeightWiseCollapsBlockName" dsid="HeightWiseCollapsBlockName" data-mini="true"
+                        data-collapsed="true" data-theme="c" data-content-theme="c" data-iconpos='left' class="HeightWiseCollapsBlockClass  ZGroomsListPageSonar_HeightWiseCollapsBlockName"
+                        reRender='SearchCollapsibleSetName'>
+                            <h3 id="ZGroomsListPageSonar_HeightWiseCollapsBlockHeaderName" name="HeightWiseCollapsBlockHeaderName"
+                            dsid="HeightWiseCollapsBlockHeaderName">
+                                Height Wise
+                            </h3>
+                        </div>
+                        <!-- CasteWiseCollapsBlockName -->
+                        <div data-role="collapsible" id="ZGroomsListPageSonar_CasteWiseCollapsBlockName"
+                        name="CasteWiseCollapsBlockName" dsid="CasteWiseCollapsBlockName" data-mini="true"
+                        data-collapsed="true" data-theme="c" data-content-theme="c" data-iconpos='left' class="CasteWiseCollapsBlockClass  ZGroomsListPageSonar_CasteWiseCollapsBlockName"
+                        reRender='SearchCollapsibleSetName'>
+                            <h3 id="ZGroomsListPageSonar_CasteWiseCollapsBlockHeaderName" name="CasteWiseCollapsBlockHeaderName"
+                            dsid="CasteWiseCollapsBlockHeaderName">
+                                Caste Wise
+                            </h3>
+                        </div>
+                        <!-- ClanWiseCollapsBlockName -->
+                        <div data-role="collapsible" id="ZGroomsListPageSonar_ClanWiseCollapsBlockName"
+                        name="ClanWiseCollapsBlockName" dsid="ClanWiseCollapsBlockName" data-mini="true"
+                        data-collapsed="true" data-theme="c" data-content-theme="c" data-iconpos='left' class="ClanWiseCollapsBlockClass  ZGroomsListPageSonar_ClanWiseCollapsBlockName"
+                        reRender='SearchCollapsibleSetName'>
+                            <h3 id="ZGroomsListPageSonar_ClanWiseCollapsBlockHeaderName" name="ClanWiseCollapsBlockHeaderName"
+                            dsid="ClanWiseCollapsBlockHeaderName">
+                                Clan Wise
+                            </h3>
+                        </div>
+                        <!-- LocationWiseCollapsBlockName -->
+                        <div data-role="collapsible" id="ZGroomsListPageSonar_LocationWiseCollapsBlockName"
+                        name="LocationWiseCollapsBlockName" dsid="LocationWiseCollapsBlockName" data-mini="true"
+                        data-collapsed="true" data-theme="c" data-content-theme="c" data-iconpos='left' class="LocationWiseCollapsBlockClass  ZGroomsListPageSonar_LocationWiseCollapsBlockName"
+                        reRender='SearchCollapsibleSetName'>
+                            <h3 id="ZGroomsListPageSonar_LocationWiseCollapsBlockHeaderName" name="LocationWiseCollapsBlockHeaderName"
+                            dsid="LocationWiseCollapsBlockHeaderName">
+                                Location Wise
+                            </h3>
+                        </div>
+                        <!-- EducationWiseCollapsBlockName -->
+                        <div data-role="collapsible" id="ZGroomsListPageSonar_EducationWiseCollapsBlockName"
+                        name="EducationWiseCollapsBlockName" dsid="EducationWiseCollapsBlockName" data-mini="true"
+                        data-collapsed="true" data-theme="c" data-content-theme="c" data-iconpos='left' class="EducationWiseCollapsBlockClass  ZGroomsListPageSonar_EducationWiseCollapsBlockName"
+                        reRender='SearchCollapsibleSetName'>
+                            <h3 id="ZGroomsListPageSonar_EducationWiseCollapsBlockHeaderName" name="EducationWiseCollapsBlockHeaderName"
+                            dsid="EducationWiseCollapsBlockHeaderName">
+                                Education Wise
+                            </h3>
+                        </div>
+                        <!-- ProfessionWiseCollapsBlockName -->
+                        <div data-role="collapsible" id="ZGroomsListPageSonar_ProfessionWiseCollapsBlockName"
+                        name="ProfessionWiseCollapsBlockName" dsid="ProfessionWiseCollapsBlockName" data-mini="true"
+                        data-collapsed="true" data-theme="c" data-content-theme="c" data-iconpos='left' class="ProfessionWiseCollapsBlockClass  ZGroomsListPageSonar_ProfessionWiseCollapsBlockName"
+                        reRender='SearchCollapsibleSetName'>
+                            <h3 id="ZGroomsListPageSonar_ProfessionWiseCollapsBlockHeaderName" name="ProfessionWiseCollapsBlockHeaderName"
+                            dsid="ProfessionWiseCollapsBlockHeaderName">
+                                Profession Wise
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

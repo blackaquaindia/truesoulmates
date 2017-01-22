@@ -1,0 +1,13 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* F0ContactsContainerName */
+.ui-content.F0ContactsPage_F0ContactsContainerName {
+	padding: 15px 15px 15px 15px;
+}
+/* F0ContactsFooterName */
+.F0ContactsPage_F0ContactsFooterName {
+	min-height:38px;
+}

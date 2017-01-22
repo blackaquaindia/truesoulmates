@@ -1,0 +1,13 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* E0DirectoryContainerName */
+.ui-content.E0DirectoryPage_E0DirectoryContainerName {
+	padding: 15px 15px 15px 15px;
+}
+/* E0DirectoryFooterName */
+.E0DirectoryPage_E0DirectoryFooterName {
+	min-height:38px;
+}

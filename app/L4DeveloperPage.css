@@ -1,0 +1,173 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* L4DeveloperContainerName */
+.ui-content.L4DeveloperPage_L4DeveloperContainerName {
+	padding: 15px 15px 15px 15px;
+}
+/* L4DeveloperLableName */
+.L4DeveloperPage_L4DeveloperLableName {
+	text-decoration: none; font-weight: bold; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 0px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* L4DeveloperGridName */
+.L4DeveloperPage_L4DeveloperGridName {
+	height: auto;
+	width:100%;
+	margin: 0px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.L4DeveloperPage_L4DeveloperGridName_wrapper {
+
+}
+.L4DeveloperPage_L4DeveloperGridName > tr > td {
+	vertical-align: top;
+}
+.L4DeveloperPage_L4DeveloperGridName_row_0, .L4DeveloperPage_L4DeveloperGridName_row_0 > td {
+	height: auto
+}
+/* L4DeveloperGridCell1Name */
+.L4DeveloperPage_L4DeveloperGridCell1Name {
+	height:auto !important;
+	width:auto;
+	padding: 15px 15px 15px 15px;
+}
+.L4DeveloperPage_L4DeveloperGridCell1Name > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* FacebookIconName */
+.L4DeveloperPage_FacebookIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* L4DeveloperGridCell2Name */
+.L4DeveloperPage_L4DeveloperGridCell2Name {
+	height:auto !important;
+	width:33%;
+	padding: 15px 15px 15px 15px;
+}
+.L4DeveloperPage_L4DeveloperGridCell2Name > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* TwitterIconName */
+.L4DeveloperPage_TwitterIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* L4DeveloperGridCell3Name */
+.L4DeveloperPage_L4DeveloperGridCell3Name {
+	height:auto !important;
+	width:auto;
+	padding: 15px 15px 2px 15px;
+}
+.L4DeveloperPage_L4DeveloperGridCell3Name > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* InstagramIconName */
+.L4DeveloperPage_InstagramIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* L4DeveloperFooterName */
+.L4DeveloperPage_L4DeveloperFooterName {
+	min-height:38px;
+}
+/* L4DeveloperPopupName */
+.L4DeveloperPage_L4DeveloperPopupName {
+	width: 100%; height: 100%;
+}
+div.L4DeveloperPage_L4DeveloperPopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.L4DeveloperPage_L4DeveloperPopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* PopupLable1Name */
+.L4DeveloperPage_PopupLable1Name {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* FacebookPopupName */
+.L4DeveloperPage_FacebookPopupName {
+	width: 100%; height: 100%;
+}
+div.L4DeveloperPage_FacebookPopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.L4DeveloperPage_FacebookPopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* FacebookPoopupLable1Name */
+.L4DeveloperPage_FacebookPoopupLable1Name {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* TwitterPopupName */
+.L4DeveloperPage_TwitterPopupName {
+	width: 100%; height: 100%;
+}
+div.L4DeveloperPage_TwitterPopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.L4DeveloperPage_TwitterPopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* TwitterPoopupLable1Name */
+.L4DeveloperPage_TwitterPoopupLable1Name {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* InstagramPopupName */
+.L4DeveloperPage_InstagramPopupName {
+	width: 100%; height: 100%;
+}
+div.L4DeveloperPage_InstagramPopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.L4DeveloperPage_InstagramPopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* InstagramPoopupLable1Name */
+.L4DeveloperPage_InstagramPoopupLable1Name {
+	text-decoration: none; font-weight: normal; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}

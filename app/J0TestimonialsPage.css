@@ -1,0 +1,20 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* SubmitTestmonialsButtonName */
+#J0TestimonialsPage_SubmitTestmonialsButtonName {
+
+}
+.ui-btn.J0TestimonialsPage_SubmitTestmonialsButtonName {
+
+}
+/* J0TestimonialsContainerName */
+.ui-content.J0TestimonialsPage_J0TestimonialsContainerName {
+	padding: 15px 15px 15px 15px;
+}
+/* J0TestimonialsFooterName */
+.J0TestimonialsPage_J0TestimonialsFooterName {
+	min-height:38px;
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            L4DeveloperPage
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <link href="../libs/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="../libs/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="../libs/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="L4DeveloperPage" id="L4DeveloperPage"
+        class="type-interior" data-theme="c">
+            <!-- L4DeveloperHeaderName -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="c" name="L4DeveloperHeaderName" id="L4DeveloperPage_L4DeveloperHeaderName"
+            class="L4DeveloperHeaderClass  L4DeveloperPage_L4DeveloperHeaderName">
+                <h1 dsid="L4DeveloperHeaderName">
+                    Developer
+                </h1>
+            </div>
+            <!-- L4DeveloperContainerName -->
+            <div data-role="content" id="L4DeveloperPage_L4DeveloperContainerName" name="L4DeveloperContainerName"
+            class="L4DeveloperContainerClass  L4DeveloperPage_L4DeveloperContainerName ui-content"
+            dsid="L4DeveloperContainerName" data-theme="c">
+                <link href="L4DeveloperPage.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="L4DeveloperPage.js">
+                </script>
+                <!-- L4DeveloperLableName -->
+                <div name="L4DeveloperLableName" id="L4DeveloperPage_L4DeveloperLableName" dsid="L4DeveloperLableName"
+                data-role="appery_label" class="L4DeveloperLableClass  L4DeveloperPage_L4DeveloperLableName">
+                    Follow Me On
+                </div>
+                <!-- L4DeveloperGridName -->
+                <div class="L4DeveloperPage_L4DeveloperGridName_wrapper" data-wrapper-for="L4DeveloperGridName">
+                    <table id="L4DeveloperPage_L4DeveloperGridName" class="L4DeveloperGridClass  L4DeveloperPage_L4DeveloperGridName"
+                    dsid="L4DeveloperGridName" name="L4DeveloperGridName" cellpadding=0 cellspacing=0>
+                        <col style="width:auto;" />
+                        <col style="width:33%;" />
+                        <col style="width:auto;" />
+                        <tr class="L4DeveloperPage_L4DeveloperGridName_row_0">
+                            <!-- L4DeveloperGridCell1Name -->
+                            <td id="L4DeveloperPage_L4DeveloperGridCell1Name" name="L4DeveloperGridCell1Name"
+                            class="L4DeveloperPage_L4DeveloperGridCell1Name" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- FacebookIconName -->
+                                    <img class="FacebookIconClass  L4DeveloperPage_FacebookIconName" src="../img/FacebookIconName.png"
+                                    id="L4DeveloperPage_FacebookIconName" dsid="FacebookIconName" name="FacebookIconName"
+                                    />
+                                </div>
+                            </td>
+                            <!-- L4DeveloperGridCell2Name -->
+                            <td id="L4DeveloperPage_L4DeveloperGridCell2Name" name="L4DeveloperGridCell2Name"
+                            class="L4DeveloperPage_L4DeveloperGridCell2Name" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- TwitterIconName -->
+                                    <img class="TwitterIconClass  L4DeveloperPage_TwitterIconName" src="../img/TwitterIconName.png"
+                                    id="L4DeveloperPage_TwitterIconName" dsid="TwitterIconName" name="TwitterIconName"
+                                    />
+                                </div>
+                            </td>
+                            <!-- L4DeveloperGridCell3Name -->
+                            <td id="L4DeveloperPage_L4DeveloperGridCell3Name" name="L4DeveloperGridCell3Name"
+                            class="L4DeveloperPage_L4DeveloperGridCell3Name" colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- InstagramIconName -->
+                                    <img class="InstagramIconClass  L4DeveloperPage_InstagramIconName" src="../img/InstagramIconName.png"
+                                    id="L4DeveloperPage_InstagramIconName" dsid="InstagramIconName" name="InstagramIconName"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <!-- L4DeveloperFooterName -->
+            <div data-role="footer" data-position="fixed" class="L4DeveloperFooterClass  L4DeveloperPage_L4DeveloperFooterName"
+            name="L4DeveloperFooterName" dsid="L4DeveloperFooterName" id="L4DeveloperPage_L4DeveloperFooterName"
+            data-theme="c">
+            </div>
+            <!-- L4DeveloperPopupName -->
+            <div data-role="popup" name="L4DeveloperPopupName" dsid="L4DeveloperPopupName" id="L4DeveloperPage_L4DeveloperPopupName"
+            class="L4DeveloperPopupClass  L4DeveloperPage_L4DeveloperPopupName" data-corners="true"
+            data-dismissible="true" data-overlay-theme="" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- PopupLable1Name -->
+                    <div name="PopupLable1Name" id="L4DeveloperPage_PopupLable1Name" dsid="PopupLable1Name"
+                    data-role="appery_label" class="PopupLable1Class  L4DeveloperPage_PopupLable1Name">
+                        Developer
+                    </div>
+                </div>
+            </div>
+            <!-- FacebookPopupName -->
+            <div data-role="popup" name="FacebookPopupName" dsid="FacebookPopupName" id="L4DeveloperPage_FacebookPopupName"
+            class="FacebookPopupClass  L4DeveloperPage_FacebookPopupName" data-corners="true"
+            data-dismissible="true" data-overlay-theme="" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- FacebookPoopupLable1Name -->
+                    <div name="FacebookPoopupLable1Name" id="L4DeveloperPage_FacebookPoopupLable1Name"
+                    dsid="FacebookPoopupLable1Name" data-role="appery_label" class="FacebookPoopupLable1Class  L4DeveloperPage_FacebookPoopupLable1Name">
+                        Facebook
+                    </div>
+                </div>
+            </div>
+            <!-- TwitterPopupName -->
+            <div data-role="popup" name="TwitterPopupName" dsid="TwitterPopupName" id="L4DeveloperPage_TwitterPopupName"
+            class="TwitterPopupClass  L4DeveloperPage_TwitterPopupName" data-corners="true" data-dismissible="true"
+            data-overlay-theme="" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- TwitterPoopupLable1Name -->
+                    <div name="TwitterPoopupLable1Name" id="L4DeveloperPage_TwitterPoopupLable1Name"
+                    dsid="TwitterPoopupLable1Name" data-role="appery_label" class="TwitterPoopupLable1Class  L4DeveloperPage_TwitterPoopupLable1Name">
+                        Twitter
+                    </div>
+                </div>
+            </div>
+            <!-- InstagramPopupName -->
+            <div data-role="popup" name="InstagramPopupName" dsid="InstagramPopupName" id="L4DeveloperPage_InstagramPopupName"
+            class="InstagramPopupClass  L4DeveloperPage_InstagramPopupName" data-corners="true"
+            data-dismissible="true" data-overlay-theme="" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- InstagramPoopupLable1Name -->
+                    <div name="InstagramPoopupLable1Name" id="L4DeveloperPage_InstagramPoopupLable1Name"
+                    dsid="InstagramPoopupLable1Name" data-role="appery_label" class="InstagramPoopupLable1Class  L4DeveloperPage_InstagramPoopupLable1Name">
+                        Instagram
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

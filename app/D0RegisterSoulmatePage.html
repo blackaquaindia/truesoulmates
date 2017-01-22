@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            D0RegisterSoulmatePage
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <link href="../libs/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="../libs/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="../libs/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="D0RegisterSoulmatePage" id="D0RegisterSoulmatePage"
+        class="type-interior" data-theme="c">
+            <!-- D0RegisterSoulmateHeaderName -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="c" name="D0RegisterSoulmateHeaderName" id="D0RegisterSoulmatePage_D0RegisterSoulmateHeaderName"
+            class="D0RegisterSoulmateHeaderClass  D0RegisterSoulmatePage_D0RegisterSoulmateHeaderName">
+                <h1 dsid="D0RegisterSoulmateHeaderName">
+                    Register Soulmate
+                </h1>
+            </div>
+            <!-- D0RegisterSoulmateContainerName -->
+            <div data-role="content" id="D0RegisterSoulmatePage_D0RegisterSoulmateContainerName"
+            name="D0RegisterSoulmateContainerName" class="D0RegisterSoulmateContainerClass  D0RegisterSoulmatePage_D0RegisterSoulmateContainerName ui-content"
+            dsid="D0RegisterSoulmateContainerName" data-theme="c">
+                <link href="D0RegisterSoulmatePage.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="D0RegisterSoulmatePage.js">
+                </script>
+                <!-- EnglishCreateProfileButtonName --><!--
+                --><a data-role="button" name="EnglishCreateProfileButtonName" dsid="EnglishCreateProfileButtonName"
+                class="EnglishCreateProfileButtonClass  D0RegisterSoulmatePage_EnglishCreateProfileButtonName"
+                id="D0RegisterSoulmatePage_EnglishCreateProfileButtonName" data-corners="true" data-icon="plus"
+                data-iconpos="left" x-apple-data-detectors="false" data-mini="true" data-theme="c"
+                tabindex="1">
+                Create Profile
+                </a><!--
+                --><!-- EnglishEditProfileButtonName --><!--
+                --><a data-role="button" name="EnglishEditProfileButtonName" dsid="EnglishEditProfileButtonName"
+                class="EnglishEditProfileButtonClass  D0RegisterSoulmatePage_EnglishEditProfileButtonName"
+                id="D0RegisterSoulmatePage_EnglishEditProfileButtonName" data-corners="true" data-icon="edit"
+                data-iconpos="left" x-apple-data-detectors="false" data-mini="true" data-theme="c"
+                tabindex="2">
+                Edit Profile
+                </a><!--
+                --><!-- EnglishDeleteProfileButtonName --><!--
+                --><a data-role="button" name="EnglishDeleteProfileButtonName" dsid="EnglishDeleteProfileButtonName"
+                class="EnglishDeleteProfileButtonClass  D0RegisterSoulmatePage_EnglishDeleteProfileButtonName"
+                id="D0RegisterSoulmatePage_EnglishDeleteProfileButtonName" data-corners="true" data-icon="delete"
+                data-iconpos="left" x-apple-data-detectors="false" data-mini="true" data-theme="c"
+                tabindex="3">
+                Delete Profile
+                </a>
+            </div>
+            <!-- D0RegisterSoulmateFooterName -->
+            <div data-role="footer" data-position="fixed" class="D0RegisterSoulmateFooterClass  D0RegisterSoulmatePage_D0RegisterSoulmateFooterName"
+            name="D0RegisterSoulmateFooterName" dsid="D0RegisterSoulmateFooterName" id="D0RegisterSoulmatePage_D0RegisterSoulmateFooterName"
+            data-theme="c">
+            </div>
+            <!-- D0RegisterSoulmatePopup -->
+            <div data-role="popup" name="D0RegisterSoulmatePopup" dsid="D0RegisterSoulmatePopup"
+            id="D0RegisterSoulmatePage_D0RegisterSoulmatePopup" class="D0RegisterSoulmatePopup  D0RegisterSoulmatePage_D0RegisterSoulmatePopup"
+            data-corners="true" data-dismissible="true" data-overlay-theme="" data-theme="" data-shadow="true"
+            data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- PopupLable1Name -->
+                    <div name="PopupLable1Name" id="D0RegisterSoulmatePage_PopupLable1Name" dsid="PopupLable1Name"
+                    data-role="appery_label" class="PopupLableClass  D0RegisterSoulmatePage_PopupLable1Name">
+                        Create Profile To Make New Profile
+                    </div>
+                    <!-- PopupLable2Name -->
+                    <div name="PopupLable2Name" id="D0RegisterSoulmatePage_PopupLable2Name" dsid="PopupLable2Name"
+                    data-role="appery_label" class="PopupLable2Class  D0RegisterSoulmatePage_PopupLable2Name">
+                        Edit Profile To Edit Your Old Profile
+                    </div>
+                    <!-- PopupLable3Name -->
+                    <div name="PopupLable3Name" id="D0RegisterSoulmatePage_PopupLable3Name" dsid="PopupLable3Name"
+                    data-role="appery_label" class="PopupLable3Class  D0RegisterSoulmatePage_PopupLable3Name">
+                        Delete Profile To Delete Your Old Profile
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

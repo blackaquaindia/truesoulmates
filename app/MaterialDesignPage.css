@@ -1,0 +1,63 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilecontainer */
+.ui-content.MaterialDesignPage_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobiletextinput_2 */
+.MaterialDesignPage_mobiletextinput_2 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilebutton_3 */
+#MaterialDesignPage_mobilebutton_3 {
+
+}
+.ui-btn.MaterialDesignPage_mobilebutton_3 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilelist_4 */
+.ui-page .MaterialDesignPage_mobilelist_4 {
+	margin: 4px 0px 0px 0px;
+}
+/* mobilelistitem_5 */
+/* mobilelistitembutton_6 */
+.MaterialDesignPage_mobilelistitembutton_6 {
+
+}
+/* mobilelistitem_7 */
+/* mobilelistitembutton_8 */
+.MaterialDesignPage_mobilelistitembutton_8 {
+
+}
+/* mobileradiogroup_17 */
+.MaterialDesignPage_mobileradiogroup_17 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobileradiobutton_18 */
+.MaterialDesignPage_mobileradiobutton_18 {
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+}
+/* mobileradiobutton_19 */
+.MaterialDesignPage_mobileradiobutton_19 {
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+}
+/* mobileselectmenu_11 */
+.MaterialDesignPage_mobileselectmenu_11 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobilecollapsblock_14 */
+.MaterialDesignPage_mobilecollapsblock_14 {
+	margin: 4px 8px 4px 8px;
+}
+.MaterialDesignPage_mobilecollapsblock_14 .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* mobilefooter */
+.MaterialDesignPage_mobilefooter {
+	min-height:38px;
+}

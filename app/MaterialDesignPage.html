@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            MaterialDesignPage
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <link href="../libs/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="../libs/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="../libs/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="MaterialDesignPage" id="MaterialDesignPage"
+        class="type-interior" data-theme="c">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="c" name="mobileheader" id="MaterialDesignPage_mobileheader" class="MaterialDesignPage_mobileheader">
+                <h1 dsid="mobileheader">
+                    Caption
+                </h1>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="MaterialDesignPage_mobilecontainer" name="mobilecontainer"
+            class="MaterialDesignPage_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="c">
+                <link href="MaterialDesignPage.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="MaterialDesignPage.js">
+                </script>
+                <!-- mobiletextinput_2 -->
+                <div data-role="fieldcontain" class="MaterialDesignPage_mobiletextinput_2 ">
+                    <input type="text" name="mobiletextinput_2" dsid="mobiletextinput_2" value="Input"
+                    placeholder="" id="MaterialDesignPage_mobiletextinput_2" tabindex="1" multiple data-theme="c"
+                    class="MaterialDesignPage_mobiletextinput_2" />
+                </div>
+                <!-- mobilebutton_3 --><!--
+                --><a data-role="button" name="mobilebutton_3" dsid="mobilebutton_3" class="MaterialDesignPage_mobilebutton_3"
+                id="MaterialDesignPage_mobilebutton_3" data-corners="true" data-icon="none" data-iconpos='nowhere'
+                x-apple-data-detectors="false" data-inline="true" data-mini="false" data-theme="c"
+                tabindex="2">
+                Button
+                </a><!--
+                --><!-- mobilelist_4 -->
+                <ul data-role="listview" id="MaterialDesignPage_mobilelist_4" class="MaterialDesignPage_mobilelist_4"
+                name="mobilelist_4" dsid="mobilelist_4" data-inset="true" data-theme="c" data-divider-theme="b"
+                data-count-theme="b" style="" data-split-icon="carat-r">
+                    <!-- mobilelistitem_5 -->
+                    <li id="MaterialDesignPage_mobilelistitem_5" data-role="list-divider" name="mobilelistitem_5"
+                    dsid="mobilelistitem_5" class="MaterialDesignPage_mobilelistitem_5">
+                        <h3>
+                            Item 1
+                        </h3>
+                    </li>
+                    <!-- mobilelistitem_7 -->
+                    <li class="MaterialDesignPage_mobilelistitem_7" data-icon="carat-r">
+                        <a id="MaterialDesignPage_mobilelistitem_7" name="mobilelistitem_7" dsid="mobilelistitem_7"
+                        tabindex="3" class="MaterialDesignPage_mobilelistitem_7">
+                        <h3>Item 2</h3>
+                        </a>
+                    </li>
+                </ul>
+                <!-- mobileradiogroup_17 -->
+                <div data-role="fieldcontain" class="MaterialDesignPage_mobileradiogroup_17" id="MaterialDesignPage_mobileradiogroup_17"
+                dsid="mobileradiogroup_17">
+                    <fieldset data-role="controlgroup" data-theme="a">
+                        <!-- mobileradiobutton_18 -->
+                        <span dsid="mobileradiobutton_18" class="MaterialDesignPage_mobileradiobutton_18"
+                        name="mobileradiobutton_18">
+                            <input type="radio" name="mobileradiogroup_17" id="MaterialDesignPage_mobileradiobutton_18"
+                            tabindex="7" value="Item 1" />
+                            <label id="MaterialDesignPage_mobileradiobutton_18_label" for="MaterialDesignPage_mobileradiobutton_18">
+                                Item 1
+                            </label>
+                        </span>
+                        <!-- mobileradiobutton_19 -->
+                        <span dsid="mobileradiobutton_19" class="MaterialDesignPage_mobileradiobutton_19"
+                        name="mobileradiobutton_19">
+                            <input type="radio" name="mobileradiogroup_17" id="MaterialDesignPage_mobileradiobutton_19"
+                            checked="checked" value="Item 2" />
+                            <label id="MaterialDesignPage_mobileradiobutton_19_label" for="MaterialDesignPage_mobileradiobutton_19">
+                                Item 2
+                            </label>
+                        </span>
+                    </fieldset>
+                </div>
+                <!-- mobileselectmenu_11 -->
+                <div data-role="fieldcontain" class="MaterialDesignPage_mobileselectmenu_11 ">
+                    <select name="mobileselectmenu_11" id="MaterialDesignPage_mobileselectmenu_11" dsid="mobileselectmenu_11"
+                    data-theme="d" data-role="appery_selectmenu" data-inline="false" data-mini="false"
+                    data-icon="arrow-d" data-iconpos="right" data-native-menu="false" tabindex="4" appery-class="MaterialDesignPage_mobileselectmenu_11">
+                        <option id="MaterialDesignPage_mobileselectmenu_11-0" value="Veni" reRender="mobileselectmenu_11"
+                        dsid="mobileselectmenu_11-0" selected="selected">
+                            Veni
+                        </option>
+                        <option id="MaterialDesignPage_mobileselectmenu_11-1" value="Vidi" reRender="mobileselectmenu_11"
+                        dsid="mobileselectmenu_11-1">
+                            Vidi
+                        </option>
+                        <option id="MaterialDesignPage_mobileselectmenu_11-2" value="Vici" reRender="mobileselectmenu_11"
+                        dsid="mobileselectmenu_11-2">
+                            Vici
+                        </option>
+                    </select>
+                </div>
+                <!-- mobilecollapsblock_14 -->
+                <div data-role="collapsible" id="MaterialDesignPage_mobilecollapsblock_14" name="mobilecollapsblock_14"
+                dsid="mobilecollapsblock_14" data-collapsed="false" data-theme="e" data-content-theme="c"
+                data-iconpos='left' class="MaterialDesignPage_mobilecollapsblock_14">
+                    <h3 id="MaterialDesignPage_mobilecollapsblockheader_15" name="mobilecollapsblockheader_15"
+                    dsid="mobilecollapsblockheader_15">
+                        text
+                    </h3>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="MaterialDesignPage_mobilefooter"
+            name="mobilefooter" dsid="mobilefooter" id="MaterialDesignPage_mobilefooter" data-theme="c">
+            </div>
+        </div>
+    </body>
+
+</html>

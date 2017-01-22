@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            L0ContactUsPage
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <link href="../libs/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="../libs/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="../libs/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="L0ContactUsPage" id="L0ContactUsPage"
+        class="type-interior" data-theme="c">
+            <!-- L0ContactUsHeaderName -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="c" name="L0ContactUsHeaderName" id="L0ContactUsPage_L0ContactUsHeaderName"
+            class="L0ContactUsHeaderClass  L0ContactUsPage_L0ContactUsHeaderName">
+                <h1 dsid="L0ContactUsHeaderName">
+                    Contact Us
+                </h1>
+                <!-- UpdateButtonName --><!--
+                --><a data-role="button" name="UpdateButtonName" dsid="UpdateButtonName" class="UpdateButtonClass  L0ContactUsPage_UpdateButtonName ui-btn-right"
+                id="L0ContactUsPage_UpdateButtonName" data-corners="true" data-icon="recycle" data-iconpos="left"
+                x-apple-data-detectors="false" data-inline='true' data-mini='true' data-theme="c"
+                tabindex="3">
+                Update
+                </a>
+            </div>
+            <!-- L0ContactUsContainerName -->
+            <div data-role="content" id="L0ContactUsPage_L0ContactUsContainerName" name="L0ContactUsContainerName"
+            class="L0ContactUsContainerClass  L0ContactUsPage_L0ContactUsContainerName ui-content"
+            dsid="L0ContactUsContainerName" data-theme="c">
+                <link href="L0ContactUsPage.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="L0ContactUsPage.js">
+                </script>
+                <!-- AdvertisingButtonName --><!--
+                --><a data-role="button" name="AdvertisingButtonName" dsid="AdvertisingButtonName"
+                class="AdvertisingButtonClass  L0ContactUsPage_AdvertisingButtonName" id="L0ContactUsPage_AdvertisingButtonName"
+                data-corners="true" data-icon="bullets" data-iconpos="left" x-apple-data-detectors="false"
+                data-mini="true" data-theme="c" tabindex="1">
+                Advertising
+                </a><!--
+                --><!-- SuggestionButtonName --><!--
+                --><a data-role="button" name="SuggestionButtonName" dsid="SuggestionButtonName" class="SuggestionButtonClass  L0ContactUsPage_SuggestionButtonName"
+                id="L0ContactUsPage_SuggestionButtonName" data-corners="true" data-icon="edit" data-iconpos="left"
+                x-apple-data-detectors="false" data-mini="true" data-theme="c" tabindex="2">
+                Suggestion
+                </a><!--
+                --><!-- TermsAndConditionsButtonName --><!--
+                --><a data-role="button" name="TermsAndConditionsButtonName" dsid="TermsAndConditionsButtonName"
+                class="TermsAndConditionsButtonClass  L0ContactUsPage_TermsAndConditionsButtonName"
+                id="L0ContactUsPage_TermsAndConditionsButtonName" data-corners="true" data-icon="info"
+                data-iconpos="left" x-apple-data-detectors="false" data-mini="true" data-theme="c"
+                tabindex="5">
+                Terms &amp; Conditions
+                </a><!--
+                --><!-- DeveloperButtonName --><!--
+                --><a data-role="button" name="DeveloperButtonName" dsid="DeveloperButtonName" class="DeveloperButtonClass  L0ContactUsPage_DeveloperButtonName"
+                id="L0ContactUsPage_DeveloperButtonName" data-corners="true" data-icon="user" data-iconpos="left"
+                x-apple-data-detectors="false" data-mini="true" data-theme="c" tabindex="6">
+                Developer
+                </a>
+            </div>
+            <!-- L0ContactUsFooterName -->
+            <div data-role="footer" data-position="fixed" class="L0ContactUsFooterClass  L0ContactUsPage_L0ContactUsFooterName"
+            name="L0ContactUsFooterName" dsid="L0ContactUsFooterName" id="L0ContactUsPage_L0ContactUsFooterName"
+            data-theme="c">
+            </div>
+            <!-- UpdatePopupName -->
+            <div data-role="popup" name="UpdatePopupName" dsid="UpdatePopupName" id="L0ContactUsPage_UpdatePopupName"
+            class="UpdatePopupClass  L0ContactUsPage_UpdatePopupName" data-corners="true" data-dismissible="true"
+            data-overlay-theme="" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- UpdateLableName -->
+                    <div name="UpdateLableName" id="L0ContactUsPage_UpdateLableName" dsid="UpdateLableName"
+                    data-role="appery_label" class="UpdateLableClass  L0ContactUsPage_UpdateLableName">
+                        Application Is Updated...
+                    </div>
+                    <!-- mobilelabel_4 -->
+                    <div name="mobilelabel_4" id="L0ContactUsPage_mobilelabel_4" dsid="mobilelabel_4"
+                    data-role="appery_label" class="L0ContactUsPage_mobilelabel_4">
+                        v1.0.1 January 2017
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

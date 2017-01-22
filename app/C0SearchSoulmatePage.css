@@ -1,0 +1,166 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* LanguageButtonName */
+#C0SearchSoulmatePage_LanguageButtonName {
+
+}
+.ui-btn.C0SearchSoulmatePage_LanguageButtonName {
+
+}
+/* C0SearchSoulmateContainerName */
+.ui-content.C0SearchSoulmatePage_C0SearchSoulmateContainerName {
+	padding: 15px 15px 15px 15px;
+}
+/* SearchSoulmateCollapsibleSetName */
+.C0SearchSoulmatePage_SearchSoulmateCollapsibleSetName {
+	margin: 8px 5px 8px 5px;
+}
+/* SonarCollapsBlockName */
+.C0SearchSoulmatePage_SonarCollapsBlockName {
+
+}
+.C0SearchSoulmatePage_SonarCollapsBlockName .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* EnglishSonarGridName */
+.C0SearchSoulmatePage_EnglishSonarGridName {
+	height: auto;
+	width:100%;
+	margin: 0px 0px 0px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.C0SearchSoulmatePage_EnglishSonarGridName_wrapper {
+
+}
+.C0SearchSoulmatePage_EnglishSonarGridName > tr > td {
+	vertical-align: top;
+}
+.C0SearchSoulmatePage_EnglishSonarGridName_row_0, .C0SearchSoulmatePage_EnglishSonarGridName_row_0 > td {
+	height: auto
+}
+/* EnglishSonarGridCell1Name */
+.C0SearchSoulmatePage_EnglishSonarGridCell1Name {
+	height:auto !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.C0SearchSoulmatePage_EnglishSonarGridCell1Name > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishSonarBridesIconName */
+.C0SearchSoulmatePage_EnglishSonarBridesIconName {
+	margin: 0px 3px 0px 3px;
+	width: 95%; height: auto;
+	display: block;
+}
+/* EnglishSonarGridCell2Name */
+.C0SearchSoulmatePage_EnglishSonarGridCell2Name {
+	height:auto !important;
+	width:auto;
+	padding: 0px 0px 0px 0px;
+}
+.C0SearchSoulmatePage_EnglishSonarGridCell2Name > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishSonarGroomsIconName */
+.C0SearchSoulmatePage_EnglishSonarGroomsIconName {
+	margin: 0px 3px 0px 3px;
+	width: 95%; height: auto;
+	display: block;
+}
+/* OthersCollapsBlockName */
+.C0SearchSoulmatePage_OthersCollapsBlockName {
+
+}
+.C0SearchSoulmatePage_OthersCollapsBlockName .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* C0SearchSoulmateFooterName */
+.C0SearchSoulmatePage_C0SearchSoulmateFooterName {
+	min-height:38px;
+}
+/* C0SearchSoulmatePopup */
+.C0SearchSoulmatePage_C0SearchSoulmatePopup {
+	width: 100%; height: 100%;
+}
+div.C0SearchSoulmatePage_C0SearchSoulmatePopup {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.C0SearchSoulmatePage_C0SearchSoulmatePopup .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* PopupLable1Name */
+.C0SearchSoulmatePage_PopupLable1Name {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* PopupLable2Name */
+.C0SearchSoulmatePage_PopupLable2Name {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* PopupLable3Name */
+.C0SearchSoulmatePage_PopupLable3Name {
+	text-decoration: none; font-weight: bold; font-style: italic; text-align: center; font-family: Helvetica; font-size: 16px;
+	margin: 4px 0px 4px 0px;
+	word-wrap: break-word;
+	white-space: normal;
+}
+/* LanguagePopupName */
+.C0SearchSoulmatePage_LanguagePopupName {
+	width: 100%;
+}
+div.C0SearchSoulmatePage_LanguagePopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.C0SearchSoulmatePage_LanguagePopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* LanguageEnglishButtonName */
+#C0SearchSoulmatePage_LanguageEnglishButtonName {
+
+}
+.ui-btn.C0SearchSoulmatePage_LanguageEnglishButtonName {
+	margin: 4px 5px 4px 5px;
+}
+/* LanguageMarathiButtonName */
+#C0SearchSoulmatePage_LanguageMarathiButtonName {
+
+}
+.ui-btn.C0SearchSoulmatePage_LanguageMarathiButtonName {
+	margin: 4px 5px 4px 5px;
+}
+/* LanguageHindiButtonName */
+#C0SearchSoulmatePage_LanguageHindiButtonName {
+
+}
+.ui-btn.C0SearchSoulmatePage_LanguageHindiButtonName {
+	margin: 4px 5px 4px 5px;
+}
+/* LanguageGujaratiButtonName */
+#C0SearchSoulmatePage_LanguageGujaratiButtonName {
+
+}
+.ui-btn.C0SearchSoulmatePage_LanguageGujaratiButtonName {
+	margin: 4px 5px 4px 5px;
+}

@@ -1,0 +1,108 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* mobilebutton_2 */
+#ExamplePage_mobilebutton_2 {
+
+}
+.ui-btn.ExamplePage_mobilebutton_2 {
+
+}
+/* mobilecontainer */
+.ui-content.ExamplePage_mobilecontainer {
+	padding: 15px 15px 15px 15px;
+}
+/* mobilebutton_3 */
+#ExamplePage_mobilebutton_3 {
+
+}
+.ui-btn.ExamplePage_mobilebutton_3 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobiletextinput_4 */
+.ExamplePage_mobiletextinput_4 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobiledatepicker_5 */
+.ExamplePage_mobiledatepicker_5 {
+	margin: 4px 0px 4px 0px;
+}
+.ExamplePage_mobiledatepicker_5 .datePickerControls {
+	position:relative;
+	top:0;
+	padding-right:45px;
+}
+.ExamplePage_mobiledatepicker_5 .datepickeropenbutton {
+	position:absolute;
+	right:0;
+}
+/* mobilebutton_6 */
+#ExamplePage_mobilebutton_6 {
+
+}
+.ui-btn.ExamplePage_mobilebutton_6 {
+	margin: 4px 5px 4px 5px;
+}
+/* mobiletoggle_12 */
+.ExamplePage_mobiletoggle_12 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobileslider_11 */
+.ExamplePage_mobileslider_11 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilelist_13 */
+.ui-page .ExamplePage_mobilelist_13 {
+	margin: 4px 0px 0px 0px;
+}
+/* mobilelistitem_14 */
+/* mobilelistitembutton_15 */
+.ExamplePage_mobilelistitembutton_15 {
+
+}
+/* mobilelistitem_16 */
+/* mobilelistitembutton_17 */
+.ExamplePage_mobilelistitembutton_17 {
+
+}
+/* mobilelistitem_18 */
+/* mobilelistitembutton_19 */
+.ExamplePage_mobilelistitembutton_19 {
+
+}
+/* mobilecheckboxgroup_7 */
+.ExamplePage_mobilecheckboxgroup_7 {
+	margin: 4px 0px 4px 0px;
+}
+/* mobilecheckbox_8 */
+.ExamplePage_mobilecheckbox_8 {
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+}
+/* mobilecheckbox_9 */
+.ExamplePage_mobilecheckbox_9 {
+	-webkit-border-radius: inherit;
+	border-radius: inherit;
+}
+/* mobilefooter */
+.ExamplePage_mobilefooter {
+	min-height:38px;
+}
+/* mobilenavbar_20 */
+.ExamplePage_mobilenavbar_20 {
+
+}
+.ExamplePage_mobilenavbar_20 .ui-grid-a .ui-block-a {
+	clear:none;
+}
+.ui-footer .ExamplePage_mobilenavbar_20 ul li:last-child a {
+	margin-right: 1px !important;
+}
+.ui-header .ExamplePage_mobilenavbar_20 ul li:last-child a {
+	margin-right: -1px !important;
+}
+.ExamplePage_mobilenavbar_20 ul.ui-grid-duo li:nth-child(even) a {
+	margin-right: 1px !important;
+}

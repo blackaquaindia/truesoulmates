@@ -1,0 +1,397 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* SettingsButtonName */
+#A0HomePageOrg_SettingsButtonName {
+
+}
+.ui-btn.A0HomePageOrg_SettingsButtonName {
+
+}
+/* A0HomeContainerName */
+.ui-content.A0HomePageOrg_A0HomeContainerName {
+	padding: 10px 15px 10px 15px;
+}
+/* EnglishGrid1Name */
+.A0HomePageOrg_EnglishGrid1Name {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.A0HomePageOrg_EnglishGrid1Name_wrapper {
+
+}
+.A0HomePageOrg_EnglishGrid1Name > tr > td {
+	vertical-align: top;
+}
+.A0HomePageOrg_EnglishGrid1Name_row_0, .A0HomePageOrg_EnglishGrid1Name_row_0 > td {
+	height: auto
+}
+/* EnglishGrid1Cell1 */
+.A0HomePageOrg_EnglishGrid1Cell1 {
+	height:auto !important;
+	width:50%;
+	padding: 0px 2px 0px 2px;
+}
+.A0HomePageOrg_EnglishGrid1Cell1 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishSearchSoulmateIconName */
+.A0HomePageOrg_EnglishSearchSoulmateIconName {
+	margin: 2px 2px 0px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid1Cell2 */
+.A0HomePageOrg_EnglishGrid1Cell2 {
+	height:auto !important;
+	width:auto;
+	padding: 0px 2px 0px 2px;
+}
+.A0HomePageOrg_EnglishGrid1Cell2 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishRegisterSoulmateIconName */
+.A0HomePageOrg_EnglishRegisterSoulmateIconName {
+	margin: 2px 2px 0px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Name */
+.A0HomePageOrg_EnglishGrid2Name {
+	height: auto;
+	width:100%;
+	margin: 0px 0px 0px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.A0HomePageOrg_EnglishGrid2Name_wrapper {
+
+}
+.A0HomePageOrg_EnglishGrid2Name > tr > td {
+	vertical-align: top;
+}
+.A0HomePageOrg_EnglishGrid2Name_row_0, .A0HomePageOrg_EnglishGrid2Name_row_0 > td {
+	height: 100px
+}
+.A0HomePageOrg_EnglishGrid2Name_row_1, .A0HomePageOrg_EnglishGrid2Name_row_1 > td {
+	height: 100px
+}
+.A0HomePageOrg_EnglishGrid2Name_row_2, .A0HomePageOrg_EnglishGrid2Name_row_2 > td {
+	height: 100px
+}
+/* EnglishGrid2Cell1 */
+.A0HomePageOrg_EnglishGrid2Cell1 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0HomePageOrg_EnglishGrid2Cell1 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishAboutUsIconName */
+.A0HomePageOrg_EnglishAboutUsIconName {
+	margin: 0px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell2 */
+.A0HomePageOrg_EnglishGrid2Cell2 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0HomePageOrg_EnglishGrid2Cell2 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishDirectoryIconName */
+.A0HomePageOrg_EnglishDirectoryIconName {
+	margin: 0px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell3 */
+.A0HomePageOrg_EnglishGrid2Cell3 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0HomePageOrg_EnglishGrid2Cell3 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishContactsIconName */
+.A0HomePageOrg_EnglishContactsIconName {
+	margin: 0px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell4 */
+.A0HomePageOrg_EnglishGrid2Cell4 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0HomePageOrg_EnglishGrid2Cell4 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishEventsIconName */
+.A0HomePageOrg_EnglishEventsIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell5 */
+.A0HomePageOrg_EnglishGrid2Cell5 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0HomePageOrg_EnglishGrid2Cell5 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishNewsIconName */
+.A0HomePageOrg_EnglishNewsIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell6 */
+.A0HomePageOrg_EnglishGrid2Cell6 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0HomePageOrg_EnglishGrid2Cell6 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishSocialMediaIconName */
+.A0HomePageOrg_EnglishSocialMediaIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell7 */
+.A0HomePageOrg_EnglishGrid2Cell7 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0HomePageOrg_EnglishGrid2Cell7 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishTestmonialsIconName */
+.A0HomePageOrg_EnglishTestmonialsIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell8 */
+.A0HomePageOrg_EnglishGrid2Cell8 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0HomePageOrg_EnglishGrid2Cell8 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishHelpIconName */
+.A0HomePageOrg_EnglishHelpIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell9 */
+.A0HomePageOrg_EnglishGrid2Cell9 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0HomePageOrg_EnglishGrid2Cell9 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishContactUsIconName */
+.A0HomePageOrg_EnglishContactUsIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishButtonsName */
+.ui-controlgroup.A0HomePageOrg_EnglishButtonsName {
+	margin: 4px 0px 4px 0px;
+	display: none;
+}
+.ui-controlgroup.A0HomePageOrg_EnglishButtonsName .ui-btn {
+	margin: 0 -1px 0 0;
+}
+/* EnglishAboutUsButtonName */
+#A0HomePageOrg_EnglishAboutUsButtonName {
+
+}
+.ui-btn.A0HomePageOrg_EnglishAboutUsButtonName {
+
+}
+/* EnglishSearchSoulmateButtonName */
+#A0HomePageOrg_EnglishSearchSoulmateButtonName {
+
+}
+.ui-btn.A0HomePageOrg_EnglishSearchSoulmateButtonName {
+
+}
+/* EnglishRegisterSoulmateButtonName */
+#A0HomePageOrg_EnglishRegisterSoulmateButtonName {
+
+}
+.ui-btn.A0HomePageOrg_EnglishRegisterSoulmateButtonName {
+
+}
+/* EnglishDirectoryButtonName */
+#A0HomePageOrg_EnglishDirectoryButtonName {
+
+}
+.ui-btn.A0HomePageOrg_EnglishDirectoryButtonName {
+
+}
+/* EnglishContactsButtonName */
+#A0HomePageOrg_EnglishContactsButtonName {
+
+}
+.ui-btn.A0HomePageOrg_EnglishContactsButtonName {
+
+}
+/* EnglishEventsButtonName */
+#A0HomePageOrg_EnglishEventsButtonName {
+
+}
+.ui-btn.A0HomePageOrg_EnglishEventsButtonName {
+
+}
+/* EnglishNewsButtonName */
+#A0HomePageOrg_EnglishNewsButtonName {
+
+}
+.ui-btn.A0HomePageOrg_EnglishNewsButtonName {
+
+}
+/* EnglishSocialMediaButtonName */
+#A0HomePageOrg_EnglishSocialMediaButtonName {
+
+}
+.ui-btn.A0HomePageOrg_EnglishSocialMediaButtonName {
+
+}
+/* EnglishTestmonialsButtonName */
+#A0HomePageOrg_EnglishTestmonialsButtonName {
+
+}
+.ui-btn.A0HomePageOrg_EnglishTestmonialsButtonName {
+
+}
+/* EnglishHelpButtonName */
+#A0HomePageOrg_EnglishHelpButtonName {
+
+}
+.ui-btn.A0HomePageOrg_EnglishHelpButtonName {
+
+}
+/* EnglishContactUsButtonName */
+#A0HomePageOrg_EnglishContactUsButtonName {
+
+}
+.ui-btn.A0HomePageOrg_EnglishContactUsButtonName {
+
+}
+/* A0HomeFooterName */
+.A0HomePageOrg_A0HomeFooterName {
+	min-height:38px;
+}
+/* SettingsPopupName */
+.A0HomePageOrg_SettingsPopupName {
+	width: 100%; height: 100%;
+}
+div.A0HomePageOrg_SettingsPopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.A0HomePageOrg_SettingsPopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 0px;
+}
+/* SettingsCollapsBlock */
+.A0HomePageOrg_SettingsCollapsBlock {
+	margin: 8px 5px 8px 5px;
+}
+/* MenuStyleCollapsBlockName */
+.A0HomePageOrg_MenuStyleCollapsBlockName {
+
+}
+.A0HomePageOrg_MenuStyleCollapsBlockName .ui-collapsible-content {
+	padding: 0px 0px 0px 0px;
+}
+/* MenuStyleIconsButtonName */
+#A0HomePageOrg_MenuStyleIconsButtonName {
+
+}
+.ui-btn.A0HomePageOrg_MenuStyleIconsButtonName {
+	margin: 4px 5px 4px 5px;
+}
+/* MenuStyleListButtonName */
+#A0HomePageOrg_MenuStyleListButtonName {
+
+}
+.ui-btn.A0HomePageOrg_MenuStyleListButtonName {
+	margin: 4px 5px 4px 5px;
+}
+/* LanguageCollapsBlockName */
+.A0HomePageOrg_LanguageCollapsBlockName {
+
+}
+.A0HomePageOrg_LanguageCollapsBlockName .ui-collapsible-content {
+	padding: 0px 0px 0px 0px;
+}
+/* LanguageEnglishButtonName */
+#A0HomePageOrg_LanguageEnglishButtonName {
+
+}
+.ui-btn.A0HomePageOrg_LanguageEnglishButtonName {
+	margin: 4px 5px 4px 5px;
+}
+/* LanguageMarathiButtonName */
+#A0HomePageOrg_LanguageMarathiButtonName {
+
+}
+.ui-btn.A0HomePageOrg_LanguageMarathiButtonName {
+	margin: 4px 5px 4px 5px;
+}
+/* LanguageHindiButtonName */
+#A0HomePageOrg_LanguageHindiButtonName {
+
+}
+.ui-btn.A0HomePageOrg_LanguageHindiButtonName {
+	margin: 4px 5px 4px 5px;
+}
+/* LanguageGujaratiButtonName */
+#A0HomePageOrg_LanguageGujaratiButtonName {
+
+}
+.ui-btn.A0HomePageOrg_LanguageGujaratiButtonName {
+	margin: 4px 5px 4px 5px;
+}

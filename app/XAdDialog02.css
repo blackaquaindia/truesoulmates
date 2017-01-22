@@ -1,0 +1,19 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* XAdDialogContainerName */
+.ui-content.XAdDialog02_XAdDialogContainerName {
+	padding: 0px 0px 0px 0px;
+}
+/* XAdDialogImageName */
+.XAdDialog02_XAdDialogImageName {
+	margin: 0px 0px 0px 0px;
+	width: 100%; height: 100%;
+	display: block;
+}
+/* XAdDialogFooterName */
+.XAdDialog02_XAdDialogFooterName {
+	min-height:38px;
+}

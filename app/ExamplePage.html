@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            ExamplePage
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <link href="../libs/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="../libs/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="../libs/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="ExamplePage" id="ExamplePage"
+        class="type-interior" data-theme="c">
+            <!-- mobileheader -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="true" data-back-btn-text="Back"
+            data-theme="c" name="mobileheader" id="ExamplePage_mobileheader" class="screen-header  ExamplePage_mobileheader">
+                <h1 dsid="mobileheader">
+                    Header
+                </h1>
+                <!-- mobilebutton_2 --><!--
+                --><a data-role="button" name="mobilebutton_2" dsid="mobilebutton_2" class="ExamplePage_mobilebutton_2 ui-btn-right"
+                id="ExamplePage_mobilebutton_2" data-corners="true" data-icon="carat-r" data-iconpos="right"
+                x-apple-data-detectors="false" data-inline='true' data-mini='true' data-theme="c"
+                tabindex="1">
+                Next
+                </a>
+            </div>
+            <!-- mobilecontainer -->
+            <div data-role="content" id="ExamplePage_mobilecontainer" name="mobilecontainer"
+            class="ExamplePage_mobilecontainer ui-content" dsid="mobilecontainer" data-theme="c">
+                <link href="ExamplePage.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="ExamplePage.js">
+                </script>
+                <!-- mobilebutton_3 --><!--
+                --><a data-role="button" name="mobilebutton_3" dsid="mobilebutton_3" class="ExamplePage_mobilebutton_3"
+                id="ExamplePage_mobilebutton_3" data-corners="true" data-icon="carat-l" data-iconpos="left"
+                x-apple-data-detectors="false" data-mini="false" data-theme="c" tabindex="2">
+                Button
+                </a><!--
+                --><!-- mobiletextinput_4 -->
+                <div data-role="fieldcontain" class="ExamplePage_mobiletextinput_4 ">
+                    <input type="text" name="mobiletextinput_4" dsid="mobiletextinput_4" value="Input"
+                    placeholder="" id="ExamplePage_mobiletextinput_4" tabindex="3" multiple data-theme="c"
+                    class="ExamplePage_mobiletextinput_4" />
+                </div>
+                <!-- mobiledatepicker_5 -->
+                <div id="ExamplePage_mobiledatepicker_5" dsid="mobiledatepicker_5" name="mobiledatepicker_5"
+                tiggzitype="object" apperytype="object" apperyclass="datepicker" tiggziclass="datepicker"
+                data-theme="c" class="ExamplePage_mobiledatepicker_5 ui-field-contain">
+                    <div class="datePickerControls">
+                        <a data-role="button" data-corners="true" data-icon="grid" data-iconpos="notext"
+                        data-mini="false" data-theme="c" class="datepickeropenbutton" title="Open Date Picker"
+                        style="margin-top:3px; vertical-align: middle; display: inline-block;">
+                        Open Date Picker
+                        </a>
+                        <div class="inputContainer">
+                            <input type="text" data-theme="c" value="" tabindex="4" />
+                        </div>
+                    </div>
+                </div>
+                <!-- mobilebutton_6 --><!--
+                --><a data-role="button" name="mobilebutton_6" dsid="mobilebutton_6" class="ExamplePage_mobilebutton_6"
+                style='min-height:20px; ' id="ExamplePage_mobilebutton_6" data-corners="true" data-icon="audio"
+                data-iconpos="notext" x-apple-data-detectors="false" data-inline="true" data-mini="false"
+                data-theme="c" tabindex="5">
+                Button
+                </a><!--
+                --><!-- mobiletoggle_12 -->
+                <div data-role="fieldcontain" class="ExamplePage_mobiletoggle_12 ">
+                    <select data-role="flipswitch" name="mobiletoggle_12" id="ExamplePage_mobiletoggle_12"
+                    dsid="mobiletoggle_12" data-theme="c" data-track-theme="c">
+                        <option value="off">
+                            Off
+                        </option>
+                        <option value="on" selected="">
+                            On
+                        </option>
+                    </select>
+                </div>
+                <!-- mobileslider_11 -->
+                <div data-role="fieldcontain" class="ExamplePage_mobileslider_11 ">
+                    <input type="range" reRender="mobileslider_11" name="mobileslider_11" dsid="mobileslider_11"
+                    id="ExamplePage_mobileslider_11" data-theme="c" data-track-theme="c" value="65" min="0"
+                    max="100" tabindex="7" class="ExamplePage_mobileslider_11" data-mini="false" />
+                </div>
+                <!-- mobilelist_13 -->
+                <ul data-role="listview" id="ExamplePage_mobilelist_13" class="ExamplePage_mobilelist_13"
+                name="mobilelist_13" dsid="mobilelist_13" data-inset="true" data-theme="c" data-divider-theme="b"
+                data-count-theme="b" style="" data-split-icon="carat-r">
+                    <!-- mobilelistitem_14 -->
+                    <li class="ExamplePage_mobilelistitem_14" data-icon="carat-r">
+                        <a id="ExamplePage_mobilelistitem_14" name="mobilelistitem_14" dsid="mobilelistitem_14"
+                        tabindex="9" class="ExamplePage_mobilelistitem_14">
+                        <h3>Item 1</h3>
+                        <span class="ui-li-count">3</span>
+                        </a>
+                    </li>
+                    <!-- mobilelistitem_16 -->
+                    <li class="ExamplePage_mobilelistitem_16" data-icon="carat-r">
+                        <a id="ExamplePage_mobilelistitem_16" name="mobilelistitem_16" dsid="mobilelistitem_16"
+                        tabindex="9" class="ExamplePage_mobilelistitem_16">
+                        <h3>Item 2</h3>
+                        </a>
+                    </li>
+                    <!-- mobilelistitem_18 -->
+                    <li class="ExamplePage_mobilelistitem_18" data-icon="carat-r">
+                        <a id="ExamplePage_mobilelistitem_18" name="mobilelistitem_18" dsid="mobilelistitem_18"
+                        tabindex="9" class="ExamplePage_mobilelistitem_18">
+                        <h3>Item 3</h3>
+                        </a>
+                    </li>
+                </ul>
+                <div data-role="fieldcontain" class="ExamplePage_mobilecheckboxgroup_7" id="ExamplePage_mobilecheckboxgroup_7"
+                dsid="mobilecheckboxgroup_7">
+                    <fieldset data-role="controlgroup" data-theme="c" class="">
+                        <span dsid="mobilecheckbox_8" class="ExamplePage_mobilecheckbox_8" name="mobilecheckbox_8">
+                            <input type="checkbox" name="mobilecheckboxgroup_7" id="ExamplePage_mobilecheckbox_8"
+                            tabindex="6" value="Item 1" />
+                            <label id="ExamplePage_mobilecheckbox_8_label" for="ExamplePage_mobilecheckbox_8">
+                                Item 1
+                            </label>
+                        </span>
+                        <span dsid="mobilecheckbox_9" class="ExamplePage_mobilecheckbox_9" name="mobilecheckbox_9">
+                            <input type="checkbox" name="mobilecheckboxgroup_7" id="ExamplePage_mobilecheckbox_9"
+                            tabindex="6" value="Item 2" />
+                            <label id="ExamplePage_mobilecheckbox_9_label" for="ExamplePage_mobilecheckbox_9">
+                                Item 2
+                            </label>
+                        </span>
+                    </fieldset>
+                </div>
+            </div>
+            <!-- mobilefooter -->
+            <div data-role="footer" data-position="fixed" class="ExamplePage_mobilefooter" name="mobilefooter"
+            dsid="mobilefooter" id="ExamplePage_mobilefooter" data-theme="c">
+                <!-- mobilenavbar_20 -->
+                <div data-role="navbar" id="ExamplePage_mobilenavbar_20" name="mobilenavbar_20"
+                dsid="mobilenavbar_20" class="ExamplePage_mobilenavbar_20" data-theme="c" style="position: relative;">
+                    <ul>
+                        <!-- mobilenavbaritem_21 -->
+                        <li>
+                            <a data-theme="c" data-icon="action" id="ExamplePage_mobilenavbaritem_21" dsid="mobilenavbaritem_21"
+                            name="mobilenavbaritem_21">
+                            item
+                            </a>
+                        </li>
+                        <!-- mobilenavbaritem_22 -->
+                        <li>
+                            <a data-theme="c" data-icon="star" id="ExamplePage_mobilenavbaritem_22" dsid="mobilenavbaritem_22"
+                            name="mobilenavbaritem_22">
+                            item
+                            </a>
+                        </li>
+                        <!-- mobilenavbaritem_23 -->
+                        <li>
+                            <a data-theme="c" data-icon="phone" id="ExamplePage_mobilenavbaritem_23" dsid="mobilenavbaritem_23"
+                            name="mobilenavbaritem_23">
+                            item
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

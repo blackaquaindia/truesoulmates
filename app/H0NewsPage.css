@@ -1,0 +1,20 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* SubmitNewsButtonName */
+#H0NewsPage_SubmitNewsButtonName {
+
+}
+.ui-btn.H0NewsPage_SubmitNewsButtonName {
+
+}
+/* H0NewsContainerName */
+.ui-content.H0NewsPage_H0NewsContainerName {
+	padding: 15px 15px 15px 15px;
+}
+/* H0NewsFooterName */
+.H0NewsPage_H0NewsFooterName {
+	min-height:38px;
+}

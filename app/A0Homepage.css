@@ -1,0 +1,397 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* SettingsButtonName */
+#A0Homepage_SettingsButtonName {
+
+}
+.ui-btn.A0Homepage_SettingsButtonName {
+
+}
+/* A0HomeContainerName */
+.ui-content.A0Homepage_A0HomeContainerName {
+	padding: 10px 15px 10px 15px;
+}
+/* EnglishGrid1Name */
+.A0Homepage_EnglishGrid1Name {
+	height: auto;
+	width:100%;
+	margin: 4px 0px 4px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.A0Homepage_EnglishGrid1Name_wrapper {
+
+}
+.A0Homepage_EnglishGrid1Name > tr > td {
+	vertical-align: top;
+}
+.A0Homepage_EnglishGrid1Name_row_0, .A0Homepage_EnglishGrid1Name_row_0 > td {
+	height: auto
+}
+/* EnglishGrid1Cell1 */
+.A0Homepage_EnglishGrid1Cell1 {
+	height:auto !important;
+	width:50%;
+	padding: 0px 2px 0px 2px;
+}
+.A0Homepage_EnglishGrid1Cell1 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishSearchSoulmateIconName */
+.A0Homepage_EnglishSearchSoulmateIconName {
+	margin: 2px 2px 0px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid1Cell2 */
+.A0Homepage_EnglishGrid1Cell2 {
+	height:auto !important;
+	width:auto;
+	padding: 0px 2px 0px 2px;
+}
+.A0Homepage_EnglishGrid1Cell2 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishRegisterSoulmateIconName */
+.A0Homepage_EnglishRegisterSoulmateIconName {
+	margin: 2px 2px 0px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Name */
+.A0Homepage_EnglishGrid2Name {
+	height: auto;
+	width:100%;
+	margin: 0px 0px 0px 0px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+.A0Homepage_EnglishGrid2Name_wrapper {
+
+}
+.A0Homepage_EnglishGrid2Name > tr > td {
+	vertical-align: top;
+}
+.A0Homepage_EnglishGrid2Name_row_0, .A0Homepage_EnglishGrid2Name_row_0 > td {
+	height: 100px
+}
+.A0Homepage_EnglishGrid2Name_row_1, .A0Homepage_EnglishGrid2Name_row_1 > td {
+	height: 100px
+}
+.A0Homepage_EnglishGrid2Name_row_2, .A0Homepage_EnglishGrid2Name_row_2 > td {
+	height: 100px
+}
+/* EnglishGrid2Cell1 */
+.A0Homepage_EnglishGrid2Cell1 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0Homepage_EnglishGrid2Cell1 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishAboutUsIconName */
+.A0Homepage_EnglishAboutUsIconName {
+	margin: 0px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell2 */
+.A0Homepage_EnglishGrid2Cell2 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0Homepage_EnglishGrid2Cell2 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishDirectoryIconName */
+.A0Homepage_EnglishDirectoryIconName {
+	margin: 0px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell3 */
+.A0Homepage_EnglishGrid2Cell3 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0Homepage_EnglishGrid2Cell3 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishContactsIconName */
+.A0Homepage_EnglishContactsIconName {
+	margin: 0px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell4 */
+.A0Homepage_EnglishGrid2Cell4 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0Homepage_EnglishGrid2Cell4 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishEventsIconName */
+.A0Homepage_EnglishEventsIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell5 */
+.A0Homepage_EnglishGrid2Cell5 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0Homepage_EnglishGrid2Cell5 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishNewsIconName */
+.A0Homepage_EnglishNewsIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell6 */
+.A0Homepage_EnglishGrid2Cell6 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0Homepage_EnglishGrid2Cell6 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishSocialMediaIconName */
+.A0Homepage_EnglishSocialMediaIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell7 */
+.A0Homepage_EnglishGrid2Cell7 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0Homepage_EnglishGrid2Cell7 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishTestmonialsIconName */
+.A0Homepage_EnglishTestmonialsIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell8 */
+.A0Homepage_EnglishGrid2Cell8 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0Homepage_EnglishGrid2Cell8 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishHelpIconName */
+.A0Homepage_EnglishHelpIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishGrid2Cell9 */
+.A0Homepage_EnglishGrid2Cell9 {
+	height:100px !important;
+	width:33%;
+	padding: 0px 2px 0px 2px;
+}
+.A0Homepage_EnglishGrid2Cell9 > .cell-wrapper {
+	padding: 0;
+	margin: 0;
+}
+/* EnglishContactUsIconName */
+.A0Homepage_EnglishContactUsIconName {
+	margin: 2px 2px 2px 2px;
+	width: 100%; height: auto;
+	display: block;
+}
+/* EnglishButtonsName */
+.ui-controlgroup.A0Homepage_EnglishButtonsName {
+	margin: 4px 0px 4px 0px;
+	display: none;
+}
+.ui-controlgroup.A0Homepage_EnglishButtonsName .ui-btn {
+	margin: 0 -1px 0 0;
+}
+/* EnglishAboutUsButtonName */
+#A0Homepage_EnglishAboutUsButtonName {
+
+}
+.ui-btn.A0Homepage_EnglishAboutUsButtonName {
+
+}
+/* EnglishSearchSoulmateButtonName */
+#A0Homepage_EnglishSearchSoulmateButtonName {
+
+}
+.ui-btn.A0Homepage_EnglishSearchSoulmateButtonName {
+
+}
+/* EnglishRegisterSoulmateButtonName */
+#A0Homepage_EnglishRegisterSoulmateButtonName {
+
+}
+.ui-btn.A0Homepage_EnglishRegisterSoulmateButtonName {
+
+}
+/* EnglishDirectoryButtonName */
+#A0Homepage_EnglishDirectoryButtonName {
+
+}
+.ui-btn.A0Homepage_EnglishDirectoryButtonName {
+
+}
+/* EnglishContactsButtonName */
+#A0Homepage_EnglishContactsButtonName {
+
+}
+.ui-btn.A0Homepage_EnglishContactsButtonName {
+
+}
+/* EnglishEventsButtonName */
+#A0Homepage_EnglishEventsButtonName {
+
+}
+.ui-btn.A0Homepage_EnglishEventsButtonName {
+
+}
+/* EnglishNewsButtonName */
+#A0Homepage_EnglishNewsButtonName {
+
+}
+.ui-btn.A0Homepage_EnglishNewsButtonName {
+
+}
+/* EnglishSocialMediaButtonName */
+#A0Homepage_EnglishSocialMediaButtonName {
+
+}
+.ui-btn.A0Homepage_EnglishSocialMediaButtonName {
+
+}
+/* EnglishTestmonialsButtonName */
+#A0Homepage_EnglishTestmonialsButtonName {
+
+}
+.ui-btn.A0Homepage_EnglishTestmonialsButtonName {
+
+}
+/* EnglishHelpButtonName */
+#A0Homepage_EnglishHelpButtonName {
+
+}
+.ui-btn.A0Homepage_EnglishHelpButtonName {
+
+}
+/* EnglishContactUsButtonName */
+#A0Homepage_EnglishContactUsButtonName {
+
+}
+.ui-btn.A0Homepage_EnglishContactUsButtonName {
+
+}
+/* A0HomeFooterName */
+.A0Homepage_A0HomeFooterName {
+	min-height:38px;
+}
+/* SettingsPopupName */
+.A0Homepage_SettingsPopupName {
+	width: 100%; height: 100%;
+}
+div.A0Homepage_SettingsPopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.A0Homepage_SettingsPopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+	padding: 0px 0px 0px 0px;
+}
+/* SettingsCollapsBlock */
+.A0Homepage_SettingsCollapsBlock {
+	margin: 8px 5px 8px 5px;
+}
+/* MenuStyleCollapsBlockName */
+.A0Homepage_MenuStyleCollapsBlockName {
+
+}
+.A0Homepage_MenuStyleCollapsBlockName .ui-collapsible-content {
+	padding: 0px 0px 0px 0px;
+}
+/* MenuStyleIconsButtonName */
+#A0Homepage_MenuStyleIconsButtonName {
+
+}
+.ui-btn.A0Homepage_MenuStyleIconsButtonName {
+	margin: 4px 5px 4px 5px;
+}
+/* MenuStyleListButtonName */
+#A0Homepage_MenuStyleListButtonName {
+
+}
+.ui-btn.A0Homepage_MenuStyleListButtonName {
+	margin: 4px 5px 4px 5px;
+}
+/* LanguageCollapsBlockName */
+.A0Homepage_LanguageCollapsBlockName {
+
+}
+.A0Homepage_LanguageCollapsBlockName .ui-collapsible-content {
+	padding: 0px 0px 0px 0px;
+}
+/* LanguageEnglishButtonName */
+#A0Homepage_LanguageEnglishButtonName {
+
+}
+.ui-btn.A0Homepage_LanguageEnglishButtonName {
+	margin: 4px 5px 4px 5px;
+}
+/* LanguageMarathiButtonName */
+#A0Homepage_LanguageMarathiButtonName {
+
+}
+.ui-btn.A0Homepage_LanguageMarathiButtonName {
+	margin: 4px 5px 4px 5px;
+}
+/* LanguageHindiButtonName */
+#A0Homepage_LanguageHindiButtonName {
+
+}
+.ui-btn.A0Homepage_LanguageHindiButtonName {
+	margin: 4px 5px 4px 5px;
+}
+/* LanguageGujaratiButtonName */
+#A0Homepage_LanguageGujaratiButtonName {
+
+}
+.ui-btn.A0Homepage_LanguageGujaratiButtonName {
+	margin: 4px 5px 4px 5px;
+}

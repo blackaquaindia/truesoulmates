@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+            A0HomePageOrg
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="msapplication-tap-highlight" content="no">
+        <!-- Enable all requests, inline styles, and eval() -->
+        <meta http-equiv="Content-Security-Policy" content="default-src * data:; style-src 'self' 'unsafe-inline' *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *">
+        <link href="../css/theme/jqm/jqm.css" rel="stylesheet" />
+        <link href="../css/theme/flat-ui/flat-ui.css" rel="stylesheet" />
+        <link href="../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css" rel="stylesheet"
+        />
+        <script type="text/javascript" src="../libs/underscore/underscore.js">
+        </script>
+        <script type="text/javascript" src="../libs/store/json2.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-2.1.1.js">
+        </script>
+        <script type="text/javascript" src="../libs/jquery/jquery-ajaxTransport.js">
+        </script>
+        <script type="text/javascript">
+                    $(document).bind("mobileinit", function()
+            {
+                if (navigator.userAgent.toLowerCase().indexOf("android") != -1)
+                {
+                    $.mobile.defaultPageTransition = 'none';
+                    $.mobile.defaultDialogTransition = 'none';
+                }
+                else if (navigator.userAgent.toLowerCase().indexOf("msie") != -1)
+                {
+                    $.mobile.allowCrossDomainPages = true;
+                    $.support.cors = true;
+                }
+                else if (navigator.userAgent.match(/(iPad|iPhone|iPod)/g))
+                {
+                    $.mobile.hashListeningEnabled = false;
+                }
+            });
+        </script>
+        <script type="text/javascript" src="../libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.js">
+        </script>
+        <script type="text/javascript" src="../libs/apperyio/mobilebase.js">
+        </script>
+        <script type="text/javascript" src="../libs/event/customEventHandler.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/sha1.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/oauth.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/contexts.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/jquery.xml2json.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/q/q.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/EventEmitter.js/EventEmitter.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/tv4/tv4.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/dist/localforage.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-setitems/localforage-setitems.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/localforage/plugins/localforage-find/localforage-find.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/crypto-js-md5/crypto-js-md5.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/moment/moment.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/underscore-query/underscore-query.min.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/offline/offline.js">
+        </script>
+        <script type="text/javascript" src="../libs/ms_sdk_bundle/client-sdk.js">
+        </script>
+        <link href="../libs/datepicker/jquery.ui.datepicker.mobile.css" rel="stylesheet"
+        type="text/css" />
+        <script type="text/javascript" src="../libs/datepicker/jQuery.ui.datepicker.js">
+        </script>
+        <script type="text/javascript" src="../libs/datepicker/jquery.ui.datepicker.mobile.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/appery.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/component-manager.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/mapping-impl.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/entity-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/login.js">
+        </script>
+        <script type="text/javascript" src="../libs/base/storage-api.js">
+        </script>
+        <script type="text/javascript" src="../libs/get_target_platform.js">
+        </script>
+        <script type="text/javascript" src="../libs/cordova.js">
+        </script>
+        <link href="../libs/apperyio/mobilebase.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="../js/services/model.js">
+        </script>
+        <script type="text/javascript" src="../js/services/service.js">
+        </script>
+    </head>
+    
+    <body>
+        <script language="JavaScript" type="text/javascript">
+                        $(document).bind("mobileinit", function()
+                {
+                    $.mobile.page.prototype.options.degradeInputs.date = true;
+                });
+        </script>
+        <div data-role="page" style="min-height:480px;" dsid="A0HomePageOrg" id="A0HomePageOrg"
+        class="type-interior" data-theme="c">
+            <!-- A0HomeHeaderName -->
+            <div data-role="header" data-position="fixed" data-add-back-btn="false" data-back-btn-text="Back"
+            data-theme="c" name="A0HomeHeaderName" id="A0HomePageOrg_A0HomeHeaderName" class="A0HomeHeaderClass  A0HomePageOrg_A0HomeHeaderName">
+                <h1 dsid="A0HomeHeaderName">
+                    Home
+                </h1>
+                <!-- SettingsButtonName --><!--
+                --><a data-role="button" name="SettingsButtonName" dsid="SettingsButtonName" class="SettingsButtonClass  A0HomePageOrg_SettingsButtonName ui-btn-right"
+                id="A0HomePageOrg_SettingsButtonName" data-corners="true" data-icon="gear" data-iconpos="left"
+                x-apple-data-detectors="false" data-inline='true' data-mini='true' data-theme="c"
+                tabindex="16">
+                Setting
+                </a>
+            </div>
+            <!-- A0HomeContainerName -->
+            <div data-role="content" id="A0HomePageOrg_A0HomeContainerName" name="A0HomeContainerName"
+            class="A0HomeContainerClass  A0HomePageOrg_A0HomeContainerName ui-content" dsid="A0HomeContainerName"
+            data-theme="c">
+                <link href="A0HomePageOrg.css" rel="stylesheet" type="text/css" />
+                <script type="text/javascript" src="A0HomePageOrg.js">
+                </script>
+                <!-- EnglishGrid1Name -->
+                <div class="A0HomePageOrg_EnglishGrid1Name_wrapper" data-wrapper-for="EnglishGrid1Name">
+                    <table id="A0HomePageOrg_EnglishGrid1Name" class="EnglishGrid1Class  A0HomePageOrg_EnglishGrid1Name"
+                    dsid="EnglishGrid1Name" name="EnglishGrid1Name" cellpadding=0 cellspacing=0>
+                        <col style="width:50%;" />
+                        <col style="width:auto;" />
+                        <tr class="A0HomePageOrg_EnglishGrid1Name_row_0">
+                            <!-- EnglishGrid1Cell1 -->
+                            <td id="A0HomePageOrg_EnglishGrid1Cell1" name="EnglishGrid1Cell1" class="A0HomePageOrg_EnglishGrid1Cell1"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- EnglishSearchSoulmateIconName -->
+                                    <img class="EnglishSearchSoulmateIconClass  A0HomePageOrg_EnglishSearchSoulmateIconName"
+                                    src="../img/englishsearchsoulmatebuttonimage.png" id="A0HomePageOrg_EnglishSearchSoulmateIconName"
+                                    dsid="EnglishSearchSoulmateIconName" name="EnglishSearchSoulmateIconName" />
+                                </div>
+                            </td>
+                            <!-- EnglishGrid1Cell2 -->
+                            <td id="A0HomePageOrg_EnglishGrid1Cell2" name="EnglishGrid1Cell2" class="A0HomePageOrg_EnglishGrid1Cell2"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- EnglishRegisterSoulmateIconName -->
+                                    <img class="EnglishRegisterSoulmateIconClass  A0HomePageOrg_EnglishRegisterSoulmateIconName"
+                                    src="../img/englishregistersoulmatebuttonimage.png" id="A0HomePageOrg_EnglishRegisterSoulmateIconName"
+                                    dsid="EnglishRegisterSoulmateIconName" name="EnglishRegisterSoulmateIconName" />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- EnglishGrid2Name -->
+                <div class="A0HomePageOrg_EnglishGrid2Name_wrapper" data-wrapper-for="EnglishGrid2Name">
+                    <table id="A0HomePageOrg_EnglishGrid2Name" class="EnglishGrid2Class  A0HomePageOrg_EnglishGrid2Name"
+                    dsid="EnglishGrid2Name" name="EnglishGrid2Name" cellpadding=0 cellspacing=0>
+                        <col style="width:33%;" />
+                        <col style="width:33%;" />
+                        <col style="width:33%;" />
+                        <tr class="A0HomePageOrg_EnglishGrid2Name_row_0">
+                            <!-- EnglishGrid2Cell1 -->
+                            <td id="A0HomePageOrg_EnglishGrid2Cell1" name="EnglishGrid2Cell1" class="A0HomePageOrg_EnglishGrid2Cell1"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- EnglishAboutUsIconName -->
+                                    <img class="EnglishAboutUsIconClass  A0HomePageOrg_EnglishAboutUsIconName" src="../img/englishaboutusbuttonimage.png"
+                                    id="A0HomePageOrg_EnglishAboutUsIconName" dsid="EnglishAboutUsIconName" name="EnglishAboutUsIconName"
+                                    />
+                                </div>
+                            </td>
+                            <!-- EnglishGrid2Cell2 -->
+                            <td id="A0HomePageOrg_EnglishGrid2Cell2" name="EnglishGrid2Cell2" class="A0HomePageOrg_EnglishGrid2Cell2"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- EnglishDirectoryIconName -->
+                                    <img class="EnglishDirectoryIconClass  A0HomePageOrg_EnglishDirectoryIconName" src="../img/englishdirectorybuttonimage.png"
+                                    id="A0HomePageOrg_EnglishDirectoryIconName" dsid="EnglishDirectoryIconName" name="EnglishDirectoryIconName"
+                                    />
+                                </div>
+                            </td>
+                            <!-- EnglishGrid2Cell3 -->
+                            <td id="A0HomePageOrg_EnglishGrid2Cell3" name="EnglishGrid2Cell3" class="A0HomePageOrg_EnglishGrid2Cell3"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- EnglishContactsIconName -->
+                                    <img class="EnglishContactsIconClass  A0HomePageOrg_EnglishContactsIconName" src="../img/englishcontactsbuttonimage.png"
+                                    id="A0HomePageOrg_EnglishContactsIconName" dsid="EnglishContactsIconName" name="EnglishContactsIconName"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="A0HomePageOrg_EnglishGrid2Name_row_1">
+                            <!-- EnglishGrid2Cell4 -->
+                            <td id="A0HomePageOrg_EnglishGrid2Cell4" name="EnglishGrid2Cell4" class="A0HomePageOrg_EnglishGrid2Cell4"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- EnglishEventsIconName -->
+                                    <img class="EnglishEventsIconClass  A0HomePageOrg_EnglishEventsIconName" src="../img/englisheventsbuttonimage.png"
+                                    id="A0HomePageOrg_EnglishEventsIconName" dsid="EnglishEventsIconName" name="EnglishEventsIconName"
+                                    />
+                                </div>
+                            </td>
+                            <!-- EnglishGrid2Cell5 -->
+                            <td id="A0HomePageOrg_EnglishGrid2Cell5" name="EnglishGrid2Cell5" class="A0HomePageOrg_EnglishGrid2Cell5"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- EnglishNewsIconName -->
+                                    <img class="EnglishNewsIconClass  A0HomePageOrg_EnglishNewsIconName" src="../img/englishnewsbuttonimage.png"
+                                    id="A0HomePageOrg_EnglishNewsIconName" dsid="EnglishNewsIconName" name="EnglishNewsIconName"
+                                    />
+                                </div>
+                            </td>
+                            <!-- EnglishGrid2Cell6 -->
+                            <td id="A0HomePageOrg_EnglishGrid2Cell6" name="EnglishGrid2Cell6" class="A0HomePageOrg_EnglishGrid2Cell6"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- EnglishSocialMediaIconName -->
+                                    <img class="EnglishSocialMediaIconClass  A0HomePageOrg_EnglishSocialMediaIconName"
+                                    src="../img/englishsocialmediabuttonimage.png" id="A0HomePageOrg_EnglishSocialMediaIconName"
+                                    dsid="EnglishSocialMediaIconName" name="EnglishSocialMediaIconName" />
+                                </div>
+                            </td>
+                        </tr>
+                        <tr class="A0HomePageOrg_EnglishGrid2Name_row_2">
+                            <!-- EnglishGrid2Cell7 -->
+                            <td id="A0HomePageOrg_EnglishGrid2Cell7" name="EnglishGrid2Cell7" class="A0HomePageOrg_EnglishGrid2Cell7"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- EnglishTestmonialsIconName -->
+                                    <img class="EnglishTestmonialsIconClass  A0HomePageOrg_EnglishTestmonialsIconName"
+                                    src="../img/englishtestmoinalsbuttonimage.png" id="A0HomePageOrg_EnglishTestmonialsIconName"
+                                    dsid="EnglishTestmonialsIconName" name="EnglishTestmonialsIconName" />
+                                </div>
+                            </td>
+                            <!-- EnglishGrid2Cell8 -->
+                            <td id="A0HomePageOrg_EnglishGrid2Cell8" name="EnglishGrid2Cell8" class="A0HomePageOrg_EnglishGrid2Cell8"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- EnglishHelpIconName -->
+                                    <img class="EnglishHelpIconClass  A0HomePageOrg_EnglishHelpIconName" src="../img/englishhelpbuttonimage.png"
+                                    id="A0HomePageOrg_EnglishHelpIconName" dsid="EnglishHelpIconName" name="EnglishHelpIconName"
+                                    />
+                                </div>
+                            </td>
+                            <!-- EnglishGrid2Cell9 -->
+                            <td id="A0HomePageOrg_EnglishGrid2Cell9" name="EnglishGrid2Cell9" class="A0HomePageOrg_EnglishGrid2Cell9"
+                            colspan=1 rowspan=1>
+                                <div class="cell-wrapper">
+                                    <!-- EnglishContactUsIconName -->
+                                    <img class="EnglishContactUsIconClass  A0HomePageOrg_EnglishContactUsIconName" src="../img/englishcontactusbuttonimage.png"
+                                    id="A0HomePageOrg_EnglishContactUsIconName" dsid="EnglishContactUsIconName" name="EnglishContactUsIconName"
+                                    />
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <!-- EnglishButtonsName -->
+                <div data-role="controlgroup" data-mini="true" name="EnglishButtonsName" id="A0HomePageOrg_EnglishButtonsName"
+                dsid="EnglishButtonsName" class="A0HomePageOrg_EnglishButtonsName">
+                    <!-- EnglishAboutUsButtonName --><!--
+                    --><a data-role="button" name="EnglishAboutUsButtonName" dsid="EnglishAboutUsButtonName"
+                    class="EnglishAboutUsButtonClass  A0HomePageOrg_EnglishAboutUsButtonName" id="A0HomePageOrg_EnglishAboutUsButtonName"
+                    data-corners="true" data-icon="arrow-r" data-iconpos="right" x-apple-data-detectors="false"
+                    data-theme="c" tabindex="19" reRender='EnglishButtonsName'>
+                    About Us
+                    </a><!--
+                    --><!-- EnglishSearchSoulmateButtonName --><!--
+                    --><a data-role="button" name="EnglishSearchSoulmateButtonName" dsid="EnglishSearchSoulmateButtonName"
+                    class="EnglishSearchSoulmateButtonClass  A0HomePageOrg_EnglishSearchSoulmateButtonName"
+                    id="A0HomePageOrg_EnglishSearchSoulmateButtonName" data-corners="true" data-icon="arrow-r"
+                    data-iconpos="right" x-apple-data-detectors="false" data-theme="c" tabindex="19"
+                    reRender='EnglishButtonsName'>
+                    Search Soulmate
+                    </a><!--
+                    --><!-- EnglishRegisterSoulmateButtonName --><!--
+                    --><a data-role="button" name="EnglishRegisterSoulmateButtonName" dsid="EnglishRegisterSoulmateButtonName"
+                    class="EnglishRegisterSoulmateButtonClass  A0HomePageOrg_EnglishRegisterSoulmateButtonName"
+                    id="A0HomePageOrg_EnglishRegisterSoulmateButtonName" data-corners="true" data-icon="arrow-r"
+                    data-iconpos="right" x-apple-data-detectors="false" data-theme="c" tabindex="19"
+                    reRender='EnglishButtonsName'>
+                    Register Soulmate
+                    </a><!--
+                    --><!-- EnglishDirectoryButtonName --><!--
+                    --><a data-role="button" name="EnglishDirectoryButtonName" dsid="EnglishDirectoryButtonName"
+                    class="EnglishDirectoryButtonClass  A0HomePageOrg_EnglishDirectoryButtonName" id="A0HomePageOrg_EnglishDirectoryButtonName"
+                    data-corners="true" data-icon="arrow-r" data-iconpos="right" x-apple-data-detectors="false"
+                    data-theme="c" tabindex="19" reRender='EnglishButtonsName'>
+                    Directory
+                    </a><!--
+                    --><!-- EnglishContactsButtonName --><!--
+                    --><a data-role="button" name="EnglishContactsButtonName" dsid="EnglishContactsButtonName"
+                    class="EnglishContactsButtonClass  A0HomePageOrg_EnglishContactsButtonName" id="A0HomePageOrg_EnglishContactsButtonName"
+                    data-corners="true" data-icon="arrow-r" data-iconpos="right" x-apple-data-detectors="false"
+                    data-theme="c" tabindex="19" reRender='EnglishButtonsName'>
+                    Contacts
+                    </a><!--
+                    --><!-- EnglishEventsButtonName --><!--
+                    --><a data-role="button" name="EnglishEventsButtonName" dsid="EnglishEventsButtonName"
+                    class="EnglishEventsButtonClass  A0HomePageOrg_EnglishEventsButtonName" id="A0HomePageOrg_EnglishEventsButtonName"
+                    data-corners="true" data-icon="arrow-r" data-iconpos="right" x-apple-data-detectors="false"
+                    data-theme="c" tabindex="19" reRender='EnglishButtonsName'>
+                    Events
+                    </a><!--
+                    --><!-- EnglishNewsButtonName --><!--
+                    --><a data-role="button" name="EnglishNewsButtonName" dsid="EnglishNewsButtonName"
+                    class="EnglishNewsButtonClass  A0HomePageOrg_EnglishNewsButtonName" id="A0HomePageOrg_EnglishNewsButtonName"
+                    data-corners="true" data-icon="arrow-r" data-iconpos="right" x-apple-data-detectors="false"
+                    data-theme="c" tabindex="19" reRender='EnglishButtonsName'>
+                    News
+                    </a><!--
+                    --><!-- EnglishSocialMediaButtonName --><!--
+                    --><a data-role="button" name="EnglishSocialMediaButtonName" dsid="EnglishSocialMediaButtonName"
+                    class="EnglishSocialMediaButtonClass  A0HomePageOrg_EnglishSocialMediaButtonName"
+                    id="A0HomePageOrg_EnglishSocialMediaButtonName" data-corners="true" data-icon="arrow-r"
+                    data-iconpos="right" x-apple-data-detectors="false" data-theme="c" tabindex="19"
+                    reRender='EnglishButtonsName'>
+                    Social Media
+                    </a><!--
+                    --><!-- EnglishTestmonialsButtonName --><!--
+                    --><a data-role="button" name="EnglishTestmonialsButtonName" dsid="EnglishTestmonialsButtonName"
+                    class="EnglishTestmonialsButtonClass  A0HomePageOrg_EnglishTestmonialsButtonName"
+                    id="A0HomePageOrg_EnglishTestmonialsButtonName" data-corners="true" data-icon="arrow-r"
+                    data-iconpos="right" x-apple-data-detectors="false" data-theme="c" tabindex="19"
+                    reRender='EnglishButtonsName'>
+                    Testmonials
+                    </a><!--
+                    --><!-- EnglishHelpButtonName --><!--
+                    --><a data-role="button" name="EnglishHelpButtonName" dsid="EnglishHelpButtonName"
+                    class="EnglishHelpButtonClass  A0HomePageOrg_EnglishHelpButtonName" id="A0HomePageOrg_EnglishHelpButtonName"
+                    data-corners="true" data-icon="arrow-r" data-iconpos="right" x-apple-data-detectors="false"
+                    data-theme="c" tabindex="19" reRender='EnglishButtonsName'>
+                    Help
+                    </a><!--
+                    --><!-- EnglishContactUsButtonName --><!--
+                    --><a data-role="button" name="EnglishContactUsButtonName" dsid="EnglishContactUsButtonName"
+                    class="EnglishContactUsButtonClass  A0HomePageOrg_EnglishContactUsButtonName" id="A0HomePageOrg_EnglishContactUsButtonName"
+                    data-corners="true" data-icon="arrow-r" data-iconpos="right" x-apple-data-detectors="false"
+                    data-theme="c" tabindex="19" reRender='EnglishButtonsName'>
+                    Contact Us
+                    </a>
+                </div>
+            </div>
+            <!-- A0HomeFooterName -->
+            <div data-role="footer" data-position="fixed" class="A0HomeFooterClass  A0HomePageOrg_A0HomeFooterName"
+            name="A0HomeFooterName" dsid="A0HomeFooterName" id="A0HomePageOrg_A0HomeFooterName"
+            data-theme="c">
+            </div>
+            <!-- SettingsPopupName -->
+            <div data-role="popup" name="SettingsPopupName" dsid="SettingsPopupName" id="A0HomePageOrg_SettingsPopupName"
+            class="SettingsPopupClass  A0HomePageOrg_SettingsPopupName" data-corners="true" data-dismissible="true"
+            data-overlay-theme="" data-theme="" data-shadow="true" data-tolerance="30,15,30,15">
+                <div class="ui-popup-content-wrapper">
+                    <!-- SettingsCollapsBlock -->
+                    <div data-role="collapsible-set" data-mini="true" data-theme="c" data-content-theme=c
+                    data-collapsed-icon='plus' data-expanded-icon='minus' name="SettingsCollapsBlock"
+                    id="A0HomePageOrg_SettingsCollapsBlock" dsid="SettingsCollapsBlock" class="A0HomePageOrg_SettingsCollapsBlock">
+                        <!-- MenuStyleCollapsBlockName -->
+                        <div data-role="collapsible" id="A0HomePageOrg_MenuStyleCollapsBlockName" name="MenuStyleCollapsBlockName"
+                        dsid="MenuStyleCollapsBlockName" data-mini="true" data-collapsed="true" data-theme="c"
+                        data-content-theme="c" data-iconpos='left' class="MenuStyleCollapsBlockClass  A0HomePageOrg_MenuStyleCollapsBlockName"
+                        reRender='SettingsCollapsBlock'>
+                            <h3 id="A0HomePageOrg_MenuStyleCollapsBlockHeader" name="MenuStyleCollapsBlockHeader"
+                            dsid="MenuStyleCollapsBlockHeader">
+                                Menu Style
+                            </h3>
+                            <!-- MenuStyleIconsButtonName --><!--
+                            --><a data-role="button" name="MenuStyleIconsButtonName" dsid="MenuStyleIconsButtonName"
+                            class="MenuStyleIconsButtonClass  A0HomePageOrg_MenuStyleIconsButtonName" id="A0HomePageOrg_MenuStyleIconsButtonName"
+                            data-corners="true" data-icon="grid" data-iconpos="left" x-apple-data-detectors="false"
+                            data-mini="true" data-theme="c" tabindex="17">
+                            Icons
+                            </a><!--
+                            --><!-- MenuStyleListButtonName --><!--
+                            --><a data-role="button" name="MenuStyleListButtonName" dsid="MenuStyleListButtonName"
+                            class="MenuStyleListButtonClass  A0HomePageOrg_MenuStyleListButtonName" id="A0HomePageOrg_MenuStyleListButtonName"
+                            data-corners="true" data-icon="bullets" data-iconpos="left" x-apple-data-detectors="false"
+                            data-mini="true" data-theme="c" tabindex="18">
+                            List
+                            </a>
+                        </div>
+                        <!-- LanguageCollapsBlockName -->
+                        <div data-role="collapsible" id="A0HomePageOrg_LanguageCollapsBlockName" name="LanguageCollapsBlockName"
+                        dsid="LanguageCollapsBlockName" data-mini="true" data-collapsed="true" data-theme="c"
+                        data-content-theme="c" data-iconpos='left' class="LanguageCollapsBlockClass  A0HomePageOrg_LanguageCollapsBlockName"
+                        reRender='SettingsCollapsBlock'>
+                            <h3 id="A0HomePageOrg_LanguageCollapsBlockHeader" name="LanguageCollapsBlockHeader"
+                            dsid="LanguageCollapsBlockHeader">
+                                Language
+                            </h3>
+                            <!-- LanguageEnglishButtonName --><!--
+                            --><a data-role="button" name="LanguageEnglishButtonName" dsid="LanguageEnglishButtonName"
+                            class="LanguageEnglishButtonClass  A0HomePageOrg_LanguageEnglishButtonName" id="A0HomePageOrg_LanguageEnglishButtonName"
+                            data-corners="true" data-icon="none" data-iconpos='nowhere' x-apple-data-detectors="false"
+                            data-mini="true" data-theme="c" tabindex="22">
+                            English
+                            </a><!--
+                            --><!-- LanguageMarathiButtonName --><!--
+                            --><a data-role="button" name="LanguageMarathiButtonName" dsid="LanguageMarathiButtonName"
+                            class="LanguageMararhiButtonClass  A0HomePageOrg_LanguageMarathiButtonName" id="A0HomePageOrg_LanguageMarathiButtonName"
+                            data-corners="true" data-icon="none" data-iconpos='nowhere' x-apple-data-detectors="false"
+                            data-mini="true" data-theme="c" tabindex="24">
+                            Marathi
+                            </a><!--
+                            --><!-- LanguageHindiButtonName --><!--
+                            --><a data-role="button" name="LanguageHindiButtonName" dsid="LanguageHindiButtonName"
+                            class="LanguageHindiButtonClass  A0HomePageOrg_LanguageHindiButtonName" id="A0HomePageOrg_LanguageHindiButtonName"
+                            data-corners="true" data-icon="none" data-iconpos='nowhere' x-apple-data-detectors="false"
+                            data-mini="true" data-theme="c" tabindex="23">
+                            Hindi
+                            </a><!--
+                            --><!-- LanguageGujaratiButtonName --><!--
+                            --><a data-role="button" name="LanguageGujaratiButtonName" dsid="LanguageGujaratiButtonName"
+                            class="LanguageGujaratiButtonClass  A0HomePageOrg_LanguageGujaratiButtonName" id="A0HomePageOrg_LanguageGujaratiButtonName"
+                            data-corners="true" data-icon="none" data-iconpos='nowhere' x-apple-data-detectors="false"
+                            data-mini="true" data-theme="c" tabindex="25">
+                            Gujarati
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

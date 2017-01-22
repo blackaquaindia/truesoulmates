@@ -1,0 +1,121 @@
+
+/* Define default spinner */
+.ui-icon-loading {
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
+}
+/* SearchButtonName */
+#YBridesListPageSonar_SearchButtonName {
+
+}
+.ui-btn.YBridesListPageSonar_SearchButtonName {
+
+}
+/* YBridesListPageSonarContainerName */
+.ui-content.YBridesListPageSonar_YBridesListPageSonarContainerName {
+	padding: 15px 0px 15px 0px;
+}
+/* YBridesListPageSonarName */
+.ui-page .YBridesListPageSonar_YBridesListPageSonarName {
+	margin: -15px -0px 0px -0px;
+}
+/* YBridesSonar20170101001Name */
+/* YBridesSonar20170101001ButtonName */
+.YBridesListPageSonar_YBridesSonar20170101001ButtonName {
+
+}
+/* YBridesSonar20170101002Name */
+/* YBridesSonar20170101002ButtonName */
+.YBridesListPageSonar_YBridesSonar20170101002ButtonName {
+
+}
+/* YBridesSonar20170101003Name */
+/* YBridesSonar20170101003ButtonName */
+.YBridesListPageSonar_YBridesSonar20170101003ButtonName {
+
+}
+/* YBridesListPageSonarFooterName */
+.YBridesListPageSonar_YBridesListPageSonarFooterName {
+	min-height:38px;
+}
+/* SearchPopupName */
+.YBridesListPageSonar_SearchPopupName {
+	width: 100%;
+}
+div.YBridesListPageSonar_SearchPopupName {
+	max-height: 100vh;
+	box-sizing: border-box;
+}
+div.YBridesListPageSonar_SearchPopupName .ui-popup-content-wrapper {
+	width:100%;
+	height:100%;
+	max-height: 99vh;
+	overflow:auto;
+	box-sizing: border-box;
+}
+/* SearchCollapsibleSetName */
+.YBridesListPageSonar_SearchCollapsibleSetName {
+	margin: 8px 5px 8px 5px;
+}
+/* NameWiseCollapsBlockName */
+.YBridesListPageSonar_NameWiseCollapsBlockName {
+
+}
+.YBridesListPageSonar_NameWiseCollapsBlockName .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* IdWiseCollapsBlockName */
+.YBridesListPageSonar_IdWiseCollapsBlockName {
+
+}
+.YBridesListPageSonar_IdWiseCollapsBlockName .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* AgeWiseCollapsBlockName */
+.YBridesListPageSonar_AgeWiseCollapsBlockName {
+
+}
+.YBridesListPageSonar_AgeWiseCollapsBlockName .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* HeightWiseCollapsBlockName */
+.YBridesListPageSonar_HeightWiseCollapsBlockName {
+
+}
+.YBridesListPageSonar_HeightWiseCollapsBlockName .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* CasteWiseCollapsBlockName */
+.YBridesListPageSonar_CasteWiseCollapsBlockName {
+
+}
+.YBridesListPageSonar_CasteWiseCollapsBlockName .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* ClanWiseCollapsBlockName */
+.YBridesListPageSonar_ClanWiseCollapsBlockName {
+
+}
+.YBridesListPageSonar_ClanWiseCollapsBlockName .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* LocationWiseCollapsBlockName */
+.YBridesListPageSonar_LocationWiseCollapsBlockName {
+
+}
+.YBridesListPageSonar_LocationWiseCollapsBlockName .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* EducationWiseCollapsBlockName */
+.YBridesListPageSonar_EducationWiseCollapsBlockName {
+
+}
+.YBridesListPageSonar_EducationWiseCollapsBlockName .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
+/* ProfessionWiseCollapsBlockName */
+.YBridesListPageSonar_ProfessionWiseCollapsBlockName {
+
+}
+.YBridesListPageSonar_ProfessionWiseCollapsBlockName .ui-collapsible-content {
+	padding: 10px 15px 10px 15px;
+}
