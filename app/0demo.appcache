@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# 2017-01-17 v1.0.1
+# 2017-01-17 v1.0.2
 
 ../img/englishaboutusbuttonimage.png
 ../img/englishbridesbuttonimage.png
@@ -14,10 +14,56 @@ CACHE MANIFEST
 ../img/englishsearchsoulmatebuttonimage.png
 ../img/englishsocialmediabuttonimage.png
 ../img/englishtestmoinalsbuttonimage.png
+
+../img/marathiaboutusbuttonimage.png
+../img/marathibridesbuttonimage.png
+../img/marathicontactsbuttonimage.png
+../img/marathicontactusbuttonimage.png
+../img/marathidirectorybuttonimage.png
+../img/marathieventsbuttonimage.png
+../img/marathigroomsbuttonimage.png
+../img/marathihelpbuttonimage.png
+../img/marathinewsbuttonimage.png
+../img/marathiregistersoulmatebuttonimage.png
+../img/marathisearchsoulmatebuttonimage.png
+../img/marathisocialmediabuttonimage.png
+../img/marathitestmoinalsbuttonimage.png
+
+../img/hindiaboutusbuttonimage.png
+../img/hindibridesbuttonimage.png
+../img/hindicontactsbuttonimage.png
+../img/hindicontactusbuttonimage.png
+../img/hindidirectorybuttonimage.png
+../img/hindieventsbuttonimage.png
+../img/hindigroomsbuttonimage.png
+../img/hindihelpbuttonimage.png
+../img/hindinewsbuttonimage.png
+../img/hindiregistersoulmatebuttonimage.png
+../img/hindisearchsoulmatebuttonimage.png
+../img/hindisocialmediabuttonimage.png
+../img/hinditestmoinalsbuttonimage.png
+
+../img/gujaratiaboutusbuttonimage.png
+../img/gujaratibridesbuttonimage.png
+../img/gujaraticontactsbuttonimage.png
+../img/gujaraticontactusbuttonimage.png
+../img/gujaratidirectorybuttonimage.png
+../img/gujaratieventsbuttonimage.png
+../img/gujaratigroomsbuttonimage.png
+../img/gujaratihelpbuttonimage.png
+../img/gujaratinewsbuttonimage.png
+../img/gujaratiregistersoulmatebuttonimage.png
+../img/gujaratisearchsoulmatebuttonimage.png
+../img/gujaratisocialmediabuttonimage.png
+../img/gujaratitestmoinalsbuttonimage.png
+
+
 ../img/XAdDialogImageName.gif
 A0Homepage.html
 A0Homepage.css
 A0Homepage.js
+
+
 ../css/theme/jqm/jqm.css
 ../css/theme/flat-ui/flat-ui.css
 ../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css
@@ -60,7 +106,7 @@ A0Homepage.js
 
 
 NETWORK:
-# 2017-01-17 v1.0.1
+# 2017-01-17 v1.0.2
 
 B0AboutUsPage.html
 B0AboutUsPage.css
