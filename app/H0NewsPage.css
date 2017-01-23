@@ -1,7 +1,7 @@
 
 /* Define default spinner */
 .ui-icon-loading {
-	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 100% 100% transparent!important;
+	background: url("../libs/jquerymobile/1.4.5/images/ajax-loader.gif") repeat scroll 0 0 / 46px 46px transparent!important;
 }
 /* SubmitNewsButtonName */
 #H0NewsPage_SubmitNewsButtonName {
