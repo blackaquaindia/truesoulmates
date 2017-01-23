@@ -57,11 +57,7 @@ CACHE MANIFEST
 ../img/gujaratisocialmediabuttonimage.png
 ../img/gujaratitestmoinalsbuttonimage.png
 
-
 ../img/XAdDialogImageName.gif
-A0Homepage.html
-A0Homepage.css
-A0Homepage.js
 
 
 ../css/theme/jqm/jqm.css
@@ -107,6 +103,10 @@ A0Homepage.js
 
 NETWORK:
 # 2017-01-18 v1.0.2
+
+A0Homepage.html
+A0Homepage.css
+A0Homepage.js
 
 B0AboutUsPage.html
 B0AboutUsPage.css
