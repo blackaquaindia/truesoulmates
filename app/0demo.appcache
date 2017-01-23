@@ -1,6 +1,7 @@
 CACHE MANIFEST
 # 2017-01-17 v1.0.1
 
+NETWORK:
 ../img/englishaboutusbuttonimage.png
 ../img/englishbridesbuttonimage.png
 ../img/englishcontactsbuttonimage.png
@@ -14,6 +15,7 @@ CACHE MANIFEST
 ../img/englishsearchsoulmatebuttonimage.png
 ../img/englishsocialmediabuttonimage.png
 ../img/englishtestmoinalsbuttonimage.png
+../img/XAdDialogImageName.gif
 ../css/theme/jqm/jqm.css
 ../css/theme/flat-ui/flat-ui.css
 ../libs/jquerymobile/1.4.5/jquery.mobile.structure-1.4.5.css
