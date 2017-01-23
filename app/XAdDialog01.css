@@ -6,13 +6,6 @@
 /* XAdDialogContainerName */
 .ui-content.XAdDialog01_XAdDialogContainerName {
 	padding: 0px 0px 0px 0px;
-
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    bottom: 0px;
-    top: 0px;
 }
 /* XAdDialogImageName */
 .XAdDialog01_XAdDialogImageName {
@@ -24,6 +17,13 @@
 .XAdDialog01_XAdDialogFooterName {
 	min-height:38px;
 }
-
+.ui-dialog-contain {
+	width: 100%;
+	max-width: 720px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	position: relative;
+	top: -1em;
+}
 
 
