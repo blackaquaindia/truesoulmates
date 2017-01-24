@@ -12,6 +12,7 @@
 	margin: 0px 0px 0px 0px;
 	width: 100%; height: 100%;
 	display: block;
+	vertical-align: center;
 }
 /* XAdDialogFooterName */
 .XAdDialog01_XAdDialogFooterName {
@@ -24,7 +25,6 @@
 	padding: 0;
 	position: relative;
 	top: -1em;
-	vertical-align: center;
 }
 
 
