@@ -20,9 +20,10 @@
 .ui-dialog-contain {
 	width: 100%;
 	max-width: 640px;
-	margin: 0 auto 0 auto;
+	margin: 10% auto 1em auto;
 	padding: 0;
-	top: 65%;
+	position: relative;
+	top: -1em;
 }
 
 
